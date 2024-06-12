@@ -2016,6 +2016,36 @@
                     "hit3Script": [],
                     "collisionGroup": "",
                     "symbol": "actor_chest"
+                },
+                {
+                    "id": "566c8812-a204-45b5-b93a-c113c10c20de",
+                    "spriteSheetId": "7a27b229-5f3d-4eaa-b20c-07997673324d",
+                    "x": 3,
+                    "y": 28,
+                    "movementType": "faceInteraction",
+                    "direction": "down",
+                    "script": [
+                        {
+                            "id": "94a866d1-d4cd-485b-8519-364104412bdb",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Hello!"
+                                ]
+                            }
+                        }
+                    ],
+                    "spriteType": "actor",
+                    "startScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "name": "Radio Guy",
+                    "updateScript": [],
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "collisionGroup": "",
+                    "symbol": "actor_radio_guy"
                 }
             ],
             "triggers": [
@@ -7356,38 +7386,7 @@
             "symbol": "scene_18",
             "x": 347,
             "y": 30,
-            "actors": [
-                {
-                    "id": "566c8812-a204-45b5-b93a-c113c10c20de",
-                    "spriteSheetId": "7a27b229-5f3d-4eaa-b20c-07997673324d",
-                    "x": 53,
-                    "y": 1,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "script": [
-                        {
-                            "id": "94a866d1-d4cd-485b-8519-364104412bdb",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Hello!"
-                                ]
-                            }
-                        }
-                    ],
-                    "spriteType": "actor",
-                    "startScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "name": "Radio Guy",
-                    "updateScript": [],
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "collisionGroup": "",
-                    "symbol": "actor_radio_guy"
-                }
-            ],
+            "actors": [],
             "triggers": [
                 {
                     "name": "",
