@@ -7386,7 +7386,43 @@
             "symbol": "scene_18",
             "x": 347,
             "y": 30,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Sign Post 3",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "id": "ad30bb1d-af79-4806-8361-36d19f597641",
+                    "x": 33,
+                    "y": 8,
+                    "movementType": "static",
+                    "script": [
+                        {
+                            "id": "e60acfd5-4f05-4076-ad71-426c8ce8a627",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Move the Stones with A!"
+                                ]
+                            }
+                        }
+                    ],
+                    "spriteType": "static",
+                    "startScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "updateScript": [],
+                    "symbol": "actor_0"
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
