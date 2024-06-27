@@ -6,7 +6,7 @@
     "scenes": [
         {
             "id": "1b7f9ffd-2bbb-470b-9189-c2ac435d2a55",
-            "name": "Top House",
+            "name": "Abandoned House",
             "backgroundId": "b340b9a2-2865-4e05-91c0-148846a693c8",
             "x": 362,
             "y": 526,
@@ -7484,18 +7484,19 @@
                     "children": {
                         "true": [
                             {
-                                "command": "EVENT_LAUNCH_PROJECTILE",
+                                "command": "EVENT_IF_ACTOR_DIRECTION",
                                 "args": {
-                                    "spriteSheetId": "ec0f660e-c420-43ee-9d1e-6d8e9f320213",
-                                    "spriteStateId": "",
                                     "actorId": "$self$",
+                                    "direction": "right",
+                                    "__collapseElse": false,
+                                    "spriteSheetId": "c0530923-91ef-420c-9142-a71cb6064686",
+                                    "spriteStateId": "",
                                     "x": 0,
                                     "y": 0,
-                                    "otherActorId": "$self$",
-                                    "direction": "right",
+                                    "otherActorId": "player",
                                     "angle": 0,
                                     "angleVariable": "L0",
-                                    "directionType": "actor",
+                                    "directionType": "direction",
                                     "initialOffset": 12,
                                     "speed": 0,
                                     "animSpeed": 255,
@@ -7507,7 +7508,183 @@
                                         "1"
                                     ]
                                 },
-                                "id": "223345d3-79a1-4004-8ae3-54176813360c"
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_LAUNCH_PROJECTILE",
+                                            "args": {
+                                                "spriteSheetId": "d1a1f765-eda6-4de3-a15d-57e0ecb61d64",
+                                                "spriteStateId": "",
+                                                "actorId": "$self$",
+                                                "x": 0,
+                                                "y": 0,
+                                                "otherActorId": "$self$",
+                                                "direction": "right",
+                                                "angle": 0,
+                                                "angleVariable": "L0",
+                                                "directionType": "direction",
+                                                "initialOffset": 12,
+                                                "speed": 0,
+                                                "animSpeed": 255,
+                                                "lifeTime": 0.1,
+                                                "loopAnim": true,
+                                                "destroyOnHit": true,
+                                                "collisionGroup": "3",
+                                                "collisionMask": [
+                                                    "1"
+                                                ],
+                                                "__collapse": true
+                                            },
+                                            "id": "a3e3d303-7147-45f9-ba56-42ca93090562"
+                                        },
+                                        {
+                                            "command": "EVENT_STOP",
+                                            "args": {},
+                                            "id": "a18c16a1-038d-4438-ad3a-b6a12df28246"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_IF_ACTOR_DIRECTION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "direction": "down",
+                                                "__collapseElse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_LAUNCH_PROJECTILE",
+                                                        "args": {
+                                                            "spriteSheetId": "d634a543-80c0-47b0-b85d-7d00751d2e85",
+                                                            "spriteStateId": "",
+                                                            "actorId": "$self$",
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "otherActorId": "$self$",
+                                                            "direction": "down",
+                                                            "angle": 0,
+                                                            "angleVariable": "L0",
+                                                            "directionType": "direction",
+                                                            "initialOffset": 12,
+                                                            "speed": 0,
+                                                            "animSpeed": 255,
+                                                            "lifeTime": 0.1,
+                                                            "loopAnim": true,
+                                                            "destroyOnHit": true,
+                                                            "collisionGroup": "3",
+                                                            "collisionMask": [
+                                                                "1"
+                                                            ],
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "088d42b7-dbfa-47ba-90af-e0e0738ceba5"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_STOP",
+                                                        "args": {},
+                                                        "id": "56f0918e-90ec-474a-8cfc-266c47f04e7c"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "3ad821c7-e61b-4195-ad91-d5980703848b"
+                                        },
+                                        {
+                                            "command": "EVENT_IF_ACTOR_DIRECTION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "direction": "up",
+                                                "__collapseElse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_LAUNCH_PROJECTILE",
+                                                        "args": {
+                                                            "spriteSheetId": "92a092d1-bf6b-4339-9194-225f03fd96b6",
+                                                            "spriteStateId": "",
+                                                            "actorId": "$self$",
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "otherActorId": "$self$",
+                                                            "direction": "up",
+                                                            "angle": 0,
+                                                            "angleVariable": "L0",
+                                                            "directionType": "direction",
+                                                            "initialOffset": 12,
+                                                            "speed": 0,
+                                                            "animSpeed": 255,
+                                                            "lifeTime": 0.1,
+                                                            "loopAnim": true,
+                                                            "destroyOnHit": true,
+                                                            "collisionGroup": "3",
+                                                            "collisionMask": [
+                                                                "1"
+                                                            ],
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "e4bd6691-a2b1-4402-adbd-9190f4790c98"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_STOP",
+                                                        "args": {},
+                                                        "id": "e8a6a073-4779-4417-a838-3a205b08461f"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "60e04ec4-4012-4660-9b5e-544221c9e9af"
+                                        },
+                                        {
+                                            "command": "EVENT_IF_ACTOR_DIRECTION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "direction": "left",
+                                                "__collapseElse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_LAUNCH_PROJECTILE",
+                                                        "args": {
+                                                            "spriteSheetId": "9f289fa0-d9a1-4633-93d3-810bcb7845e5",
+                                                            "spriteStateId": "",
+                                                            "actorId": "$self$",
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "otherActorId": "$self$",
+                                                            "direction": "left",
+                                                            "angle": 0,
+                                                            "angleVariable": "L0",
+                                                            "directionType": "direction",
+                                                            "initialOffset": 12,
+                                                            "speed": 0,
+                                                            "animSpeed": 255,
+                                                            "lifeTime": 0.1,
+                                                            "loopAnim": true,
+                                                            "destroyOnHit": true,
+                                                            "collisionGroup": "3",
+                                                            "collisionMask": [
+                                                                "1"
+                                                            ],
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "af573221-53ba-4796-97bf-eb57cd5007e2"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_STOP",
+                                                        "args": {},
+                                                        "id": "e2cb7d03-6483-44e1-bed9-7f98eaf0d88b"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "e5c2a31e-0146-4d8d-974a-24d369ca39b0"
+                                        }
+                                    ]
+                                },
+                                "id": "4142194e-9326-4c25-bf60-20f149242391"
                             }
                         ]
                     },
@@ -24259,30 +24436,30 @@
             "animSpeed": 15
         },
         {
-            "id": "c0530923-91ef-420c-9142-a71cb6064686",
-            "name": "sword",
-            "symbol": "sprite_sword",
+            "id": "d634a543-80c0-47b0-b85d-7d00751d2e85",
+            "name": "sword_down",
+            "symbol": "sprite_sword_down",
             "numFrames": 1,
             "type": "static",
-            "filename": "sword.png",
-            "checksum": "07f3a4ffcef29e16475f020b9a199b93007f26d4",
+            "filename": "sword_down.png",
+            "checksum": "8fb232c2374a679d9df74c0a70ea33a286d2e144",
             "width": 16,
             "height": 16,
             "states": [
                 {
-                    "id": "786031b3-d6e4-4ca8-b7a6-11d0b810a9fd",
+                    "id": "7c8a2c2b-0c53-44e0-84ed-67489dac76ba",
                     "name": "",
                     "animationType": "fixed",
                     "flipLeft": false,
                     "animations": [
                         {
-                            "id": "73871d2c-0a86-4c3f-b06c-7f577a440e6d",
+                            "id": "d45c5027-a825-4727-8251-939c32b89de7",
                             "frames": [
                                 {
-                                    "id": "bcb4e763-0e3a-4664-801e-2239e2f6fed4",
+                                    "id": "6f3495d1-389a-481e-9929-cc8cdd79c812",
                                     "tiles": [
                                         {
-                                            "id": "fae0aef8-7bb7-4545-8c78-8cd0bab21015",
+                                            "id": "0f5bb133-11e0-45c6-9418-9ee83979ffdf",
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 0,
@@ -24295,7 +24472,7 @@
                                             "priority": false
                                         },
                                         {
-                                            "id": "afb688f3-9747-47f4-bc24-33cc39aba72e",
+                                            "id": "2cbdacb5-af91-4a9d-beb6-9e8972ff38e9",
                                             "x": 8,
                                             "y": 0,
                                             "sliceX": 8,
@@ -24312,64 +24489,448 @@
                             ]
                         },
                         {
-                            "id": "19a26d5c-6b61-4343-b768-52c5e8ab91e1",
+                            "id": "efe059b7-cd11-4993-ab8d-a7f499addbac",
                             "frames": [
                                 {
-                                    "id": "8c28fbfb-42d6-40d6-826e-5d30b2008c79",
+                                    "id": "aa4f930f-eb4e-4368-8a18-9db2e54754f5",
                                     "tiles": []
                                 }
                             ]
                         },
                         {
-                            "id": "9c903f88-b79a-44a2-838a-83b7cf4efd36",
+                            "id": "68747902-0e0e-42ca-a720-a7d215a708df",
                             "frames": [
                                 {
-                                    "id": "1cf0b501-b2eb-4e94-8fbc-5e4d343b9807",
+                                    "id": "15c22db0-68e9-469e-b0fc-cd278dd4287f",
                                     "tiles": []
                                 }
                             ]
                         },
                         {
-                            "id": "c28ba593-6364-4119-850c-e62a26ef133c",
+                            "id": "c3bc52d9-5d5f-4f4e-b388-a4dc7f5eb3d1",
                             "frames": [
                                 {
-                                    "id": "1eedd74a-d484-4493-a3d8-a093fda6bd83",
+                                    "id": "43c68dc8-9a13-46f3-8e3d-4c2f2189fd66",
                                     "tiles": []
                                 }
                             ]
                         },
                         {
-                            "id": "0c0e75ac-7346-4231-825f-0f682f9f6aaa",
+                            "id": "7fc0d45b-2de9-4afd-b230-fa7c1eb18b8e",
                             "frames": [
                                 {
-                                    "id": "fa79110a-a4ff-4d82-a90e-7fe35d7215f1",
+                                    "id": "dc1f4057-123a-4f6c-8205-148a60140249",
                                     "tiles": []
                                 }
                             ]
                         },
                         {
-                            "id": "6cd26de0-4b56-440a-8b16-ff6a299d4c17",
+                            "id": "f1ec62a4-928a-4ece-8257-ce27d2da8e9d",
                             "frames": [
                                 {
-                                    "id": "2285bd21-b6d1-46f7-a160-58aa6d6c1d18",
+                                    "id": "8b5e27f7-a7a0-4ea5-8ad6-c036b7e47ee3",
                                     "tiles": []
                                 }
                             ]
                         },
                         {
-                            "id": "b1cf39af-a7d6-4898-b71a-d2980d063936",
+                            "id": "8622d940-3f67-4a49-bcd6-f0cf57af8d4f",
                             "frames": [
                                 {
-                                    "id": "0bcc5aa4-93a0-434d-a16b-000f3300e245",
+                                    "id": "aa772bb2-461b-4c01-915e-fbaffa9a1f89",
                                     "tiles": []
                                 }
                             ]
                         },
                         {
-                            "id": "99cb259c-bc45-44ba-a83d-abca5898c2f2",
+                            "id": "7139f845-a915-494b-bf9d-7ab8ed9b82ad",
                             "frames": [
                                 {
-                                    "id": "6e0c9612-c55e-4925-a40f-4aa13a61939d",
+                                    "id": "2aaa08fd-cb36-4eff-811f-da32dca84ab2",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "9f289fa0-d9a1-4633-93d3-810bcb7845e5",
+            "name": "sword_left",
+            "symbol": "sprite_sword_left",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "sword_left.png",
+            "checksum": "9897d55403143fde8793fbd3724321471258698a",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "def95f1e-69f0-4ffc-816e-9524b93dca43",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "399f6c5e-ec65-4e13-b056-c5e95a5f6044",
+                            "frames": [
+                                {
+                                    "id": "2a4a7612-a224-4b5d-a02b-07dfd131f163",
+                                    "tiles": [
+                                        {
+                                            "id": "0e0dd548-93d5-4e91-bc2d-34f79ce5a9bf",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "ba86f7ee-bb70-4c97-a3f2-c084da1d85f9",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "35504394-1bfa-4b74-b54d-95e9b27e75b9",
+                            "frames": [
+                                {
+                                    "id": "db4c3ba9-76c9-4ca7-ac9e-c4db9f149b7c",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d65aafc6-f301-4238-be6d-15ac7a522cde",
+                            "frames": [
+                                {
+                                    "id": "81e89b0a-0975-4023-b68d-d9a3551955ac",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d6e1b11f-c87d-44b8-9694-5957e3577ae1",
+                            "frames": [
+                                {
+                                    "id": "53edcb5f-167d-411b-b33c-d9aad97520f9",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2069e564-b194-4640-920d-49d285641c02",
+                            "frames": [
+                                {
+                                    "id": "17d0c6bd-82e5-4c0b-b16b-6782fa5e02ff",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6d92400f-9dbb-4afb-b897-2a4280784b15",
+                            "frames": [
+                                {
+                                    "id": "d35f8923-9a70-4eaa-bb84-81c97f61abbe",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "994d30d5-e0a1-410f-8727-684c51bed1e7",
+                            "frames": [
+                                {
+                                    "id": "742d8c23-4833-4ea6-b77b-31292b958346",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "92f2ccfe-0067-4f3a-ad9d-af2a5c5e97e2",
+                            "frames": [
+                                {
+                                    "id": "f3e911d4-2469-4582-9e75-4fd24424fc6c",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "d1a1f765-eda6-4de3-a15d-57e0ecb61d64",
+            "name": "sword_right",
+            "symbol": "sprite_sword_right",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "sword_right.png",
+            "checksum": "07f3a4ffcef29e16475f020b9a199b93007f26d4",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "6ceb68e1-1281-4099-aa79-2be022513844",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "d8942fd3-96eb-4e7e-bfb1-ee89201b6577",
+                            "frames": [
+                                {
+                                    "id": "b09439c6-99b2-4cac-9754-b1d4691e4c60",
+                                    "tiles": [
+                                        {
+                                            "id": "b2bc0715-c076-4979-913e-011de45888e7",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "0264254b-2f60-41a8-96c3-38b65f9218fb",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "cc770c1e-8444-458d-9ad8-c23d49fafcbf",
+                            "frames": [
+                                {
+                                    "id": "214ff3be-b222-4bbf-8c98-a5b3ae85aec9",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "691fc3bd-5aec-4b6d-920f-00f6308512d6",
+                            "frames": [
+                                {
+                                    "id": "bb4d4b68-2f6d-4d47-8450-a6d065bffb38",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "cae74ab5-1f7f-4434-bcd1-db83260d5f4f",
+                            "frames": [
+                                {
+                                    "id": "80e4617d-d897-445c-a5ca-198d56225881",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "fe82de5a-1c3f-4fe4-a7c3-419df3b5d536",
+                            "frames": [
+                                {
+                                    "id": "b59fcab3-db41-4b07-8adf-6645c85f32db",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "793fe15d-355f-4cb8-946d-0660deec0d11",
+                            "frames": [
+                                {
+                                    "id": "b845f71a-9c2d-4911-8132-1b8e12950624",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c61c1dc6-c2e5-4f6a-a024-8bfc778fa314",
+                            "frames": [
+                                {
+                                    "id": "adac3dfa-b8bc-4b0a-8d18-9ab9bc622cb1",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ac9b578d-b22e-4741-ac84-3b79ac75124f",
+                            "frames": [
+                                {
+                                    "id": "3f93f3b8-60bd-4e88-9ed8-e592d879981d",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "92a092d1-bf6b-4339-9194-225f03fd96b6",
+            "name": "sword_up",
+            "symbol": "sprite_sword_up",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "sword_up.png",
+            "checksum": "753dcc7b5653965229c0a1381f299c6077f4d705",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "19534def-bb62-4f4f-b2c5-03f9f04ab4b5",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "cbbda787-cc7f-4851-a6f7-c886a0f1eed9",
+                            "frames": [
+                                {
+                                    "id": "6de110bf-4a80-4fbb-ae65-79a5f38230fa",
+                                    "tiles": [
+                                        {
+                                            "id": "1aed28ff-c357-4643-a890-caa0d37f8764",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "b7edcfe6-3901-44e8-991d-0f62a5f250f5",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "af02e712-ce5a-44ee-8e4a-c96a0f0cc32a",
+                            "frames": [
+                                {
+                                    "id": "0618e788-504c-45dc-834e-1d246e11d401",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "88b0ab4b-273f-4646-99e4-705e1e9da78d",
+                            "frames": [
+                                {
+                                    "id": "b7ac3dcb-05ea-46a8-81b2-0bcb424f5262",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c9cbf8e0-9864-4739-9826-fde9b3532774",
+                            "frames": [
+                                {
+                                    "id": "2177e613-55fe-4b9f-86f8-3be85f3bbaa4",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "60e26385-cf00-4f37-8ce4-76afc6153b70",
+                            "frames": [
+                                {
+                                    "id": "c30fa4ee-7b13-4a5f-aa86-64a0d26891e6",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5df2c084-9aa8-4426-b16b-adfb06234ad7",
+                            "frames": [
+                                {
+                                    "id": "74e614b3-954f-4ee2-87aa-1ecc1abcb32d",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "44908e6e-abe7-4720-94df-dfa6482c4157",
+                            "frames": [
+                                {
+                                    "id": "b3d3aa9e-60e1-4866-87f3-ceb20454c0e6",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "96e0f6bf-a4a8-43f5-b12a-2b315bdc8e8e",
+                            "frames": [
+                                {
+                                    "id": "ffea63dc-481f-40aa-89ab-850efaef65bb",
                                     "tiles": []
                                 }
                             ]
@@ -25047,36 +25608,6 @@
             ]
         },
         {
-            "id": "474a8d83-8645-4899-b86a-4681b8498709",
-            "name": "Platform Clouds",
-            "colors": [
-                "C8E8F8",
-                "F0F0F0",
-                "3088B0",
-                "202850"
-            ]
-        },
-        {
-            "id": "5dafcf6e-b1d8-4c6b-b105-32d877f561e4",
-            "name": "Platform Grass",
-            "colors": [
-                "C8E8F8",
-                "B0F088",
-                "587878",
-                "202850"
-            ]
-        },
-        {
-            "id": "2801a5c2-3b0b-41b9-90c9-ec2af73d825d",
-            "name": "Platform Tree",
-            "colors": [
-                "C8E8F8",
-                "D89048",
-                "A82820",
-                "202850"
-            ]
-        },
-        {
             "id": "320dcbf4-2760-4e0d-8e2b-41970675034f",
             "name": "Top Down Grass",
             "colors": [
@@ -25127,26 +25658,6 @@
             ]
         },
         {
-            "id": "325f5712-ff6c-40e7-b105-c6d795846783",
-            "name": "Space Earth",
-            "colors": [
-                "E8F8E0",
-                "B0F088",
-                "5098E0",
-                "000048"
-            ]
-        },
-        {
-            "id": "d73adccf-4071-4012-b0a6-9c3973a2dc0e",
-            "name": "Space Stars",
-            "colors": [
-                "E8F800",
-                "10B8F0",
-                "C80878",
-                "000048"
-            ]
-        },
-        {
             "id": "444c886c-6214-48d7-8e3c-4dca4f65dec7",
             "name": "Cave Wall",
             "colors": [
@@ -25157,16 +25668,6 @@
             ]
         },
         {
-            "id": "78b1f1eb-13ad-4822-b109-8a693bae141c",
-            "name": "Machines",
-            "colors": [
-                "F81098",
-                "989898",
-                "404040",
-                "101010"
-            ]
-        },
-        {
             "id": "0cae84a7-ed50-4b05-b39a-66be5af7ffd2",
             "name": "Fire",
             "colors": [
@@ -25174,26 +25675,6 @@
                 "F88000",
                 "F8D000",
                 "F82800"
-            ]
-        },
-        {
-            "id": "aa5d38da-49d6-4160-a033-a54ec7964f47",
-            "name": "Parallax Clouds",
-            "colors": [
-                "C8E8F8",
-                "E8D8B8",
-                "D088B0",
-                "202850"
-            ]
-        },
-        {
-            "id": "c2af2d33-8fcb-4a07-b9a0-15d6b7a98767",
-            "name": "Elephant",
-            "colors": [
-                "C8D0F0",
-                "9098C8",
-                "304860",
-                "202850"
             ]
         }
     ],

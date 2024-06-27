@@ -6,7 +6,7 @@
     "scenes": [
         {
             "id": "1b7f9ffd-2bbb-470b-9189-c2ac435d2a55",
-            "name": "Top House",
+            "name": "Abandoned House",
             "backgroundId": "b340b9a2-2865-4e05-91c0-148846a693c8",
             "x": 362,
             "y": 526,
@@ -1765,7 +1765,7 @@
         },
         {
             "id": "3509d273-bf7e-4946-89ce-a489df5a449d",
-            "name": "Underground",
+            "name": "Cave",
             "backgroundId": "f3102db4-2273-411d-b33f-4d6f65959c60",
             "x": 63,
             "y": 429,
@@ -4238,7 +4238,7 @@
             "type": "TOPDOWN",
             "paletteIds": [
                 "",
-                "default-bg-4",
+                "",
                 "default-sprite",
                 "default-bg-2"
             ],
@@ -25608,36 +25608,6 @@
             ]
         },
         {
-            "id": "474a8d83-8645-4899-b86a-4681b8498709",
-            "name": "Platform Clouds",
-            "colors": [
-                "C8E8F8",
-                "F0F0F0",
-                "3088B0",
-                "202850"
-            ]
-        },
-        {
-            "id": "5dafcf6e-b1d8-4c6b-b105-32d877f561e4",
-            "name": "Platform Grass",
-            "colors": [
-                "C8E8F8",
-                "B0F088",
-                "587878",
-                "202850"
-            ]
-        },
-        {
-            "id": "2801a5c2-3b0b-41b9-90c9-ec2af73d825d",
-            "name": "Platform Tree",
-            "colors": [
-                "C8E8F8",
-                "D89048",
-                "A82820",
-                "202850"
-            ]
-        },
-        {
             "id": "320dcbf4-2760-4e0d-8e2b-41970675034f",
             "name": "Top Down Grass",
             "colors": [
@@ -25688,26 +25658,6 @@
             ]
         },
         {
-            "id": "325f5712-ff6c-40e7-b105-c6d795846783",
-            "name": "Space Earth",
-            "colors": [
-                "E8F8E0",
-                "B0F088",
-                "5098E0",
-                "000048"
-            ]
-        },
-        {
-            "id": "d73adccf-4071-4012-b0a6-9c3973a2dc0e",
-            "name": "Space Stars",
-            "colors": [
-                "E8F800",
-                "10B8F0",
-                "C80878",
-                "000048"
-            ]
-        },
-        {
             "id": "444c886c-6214-48d7-8e3c-4dca4f65dec7",
             "name": "Cave Wall",
             "colors": [
@@ -25718,16 +25668,6 @@
             ]
         },
         {
-            "id": "78b1f1eb-13ad-4822-b109-8a693bae141c",
-            "name": "Machines",
-            "colors": [
-                "F81098",
-                "989898",
-                "404040",
-                "101010"
-            ]
-        },
-        {
             "id": "0cae84a7-ed50-4b05-b39a-66be5af7ffd2",
             "name": "Fire",
             "colors": [
@@ -25735,26 +25675,6 @@
                 "F88000",
                 "F8D000",
                 "F82800"
-            ]
-        },
-        {
-            "id": "aa5d38da-49d6-4160-a033-a54ec7964f47",
-            "name": "Parallax Clouds",
-            "colors": [
-                "C8E8F8",
-                "E8D8B8",
-                "D088B0",
-                "202850"
-            ]
-        },
-        {
-            "id": "c2af2d33-8fcb-4a07-b9a0-15d6b7a98767",
-            "name": "Elephant",
-            "colors": [
-                "C8D0F0",
-                "9098C8",
-                "304860",
-                "202850"
             ]
         }
     ],
