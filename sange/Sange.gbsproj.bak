@@ -4610,7 +4610,7 @@
                 15,
                 15,
                 15,
-                0,
+                15,
                 0,
                 0,
                 15,
@@ -4666,7 +4666,7 @@
                 0,
                 15,
                 15,
-                0,
+                15,
                 0,
                 0,
                 15,
@@ -4973,14 +4973,14 @@
                 0,
                 15,
                 15,
-                0,
-                0,
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -5031,12 +5031,12 @@
                 15,
                 0,
                 0,
+                0,
                 15,
                 15,
                 15,
                 15,
                 15,
-                0,
                 0,
                 0,
                 0,
@@ -5087,12 +5087,12 @@
                 15,
                 0,
                 0,
+                0,
                 15,
                 15,
                 15,
                 15,
                 15,
-                0,
                 0,
                 0,
                 0,
@@ -5143,12 +5143,12 @@
                 15,
                 0,
                 0,
+                0,
                 15,
                 15,
                 15,
                 15,
                 15,
-                0,
                 0,
                 0,
                 0,
@@ -5199,6 +5199,7 @@
                 15,
                 0,
                 0,
+                0,
                 15,
                 15,
                 15,
@@ -5250,9 +5251,9 @@
                 0,
                 0,
                 0,
-                0,
                 15,
                 15,
+                0,
                 0,
                 0,
                 15,
@@ -5306,16 +5307,14 @@
                 0,
                 0,
                 0,
-                0,
                 15,
                 15,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -5353,6 +5352,7 @@
                 0,
                 0,
                 0,
+                0,
                 15,
                 15,
                 15,
@@ -5633,12 +5633,12 @@
                 0,
                 0,
                 0,
+                0,
                 15,
                 15,
                 15,
                 15,
                 15,
-                0,
                 0,
                 0,
                 0,
@@ -5689,12 +5689,12 @@
                 0,
                 0,
                 0,
+                0,
                 15,
                 15,
                 15,
                 15,
                 15,
-                0,
                 0,
                 0,
                 0,
@@ -5745,12 +5745,12 @@
                 0,
                 0,
                 0,
+                0,
                 15,
                 15,
                 15,
                 15,
                 15,
-                0,
                 0,
                 0,
                 0,
@@ -6178,8 +6178,8 @@
                 15,
                 0,
                 0,
-                0,
                 15,
+                15,
                 0,
                 0,
                 0,
@@ -6232,10 +6232,10 @@
                 0,
                 15,
                 15,
-                0,
                 0,
                 0,
                 15,
+                15,
                 0,
                 0,
                 0,
@@ -6943,11 +6943,11 @@
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -7471,7 +7471,49 @@
                     "leaveScript": []
                 }
             ],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_LAUNCH_PROJECTILE",
+                                "args": {
+                                    "spriteSheetId": "ec0f660e-c420-43ee-9d1e-6d8e9f320213",
+                                    "spriteStateId": "",
+                                    "actorId": "$self$",
+                                    "x": 0,
+                                    "y": 0,
+                                    "otherActorId": "$self$",
+                                    "direction": "right",
+                                    "angle": 0,
+                                    "angleVariable": "L0",
+                                    "directionType": "actor",
+                                    "initialOffset": 12,
+                                    "speed": 0,
+                                    "animSpeed": 255,
+                                    "lifeTime": 0.1,
+                                    "loopAnim": true,
+                                    "destroyOnHit": true,
+                                    "collisionGroup": "3",
+                                    "collisionMask": [
+                                        "1"
+                                    ]
+                                },
+                                "id": "223345d3-79a1-4004-8ae3-54176813360c"
+                            }
+                        ]
+                    },
+                    "id": "c0f17135-6362-40fb-ada9-30674a7d6db0"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -24217,6 +24259,134 @@
             "animSpeed": 15
         },
         {
+            "id": "c0530923-91ef-420c-9142-a71cb6064686",
+            "name": "sword",
+            "symbol": "sprite_sword",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "sword.png",
+            "checksum": "07f3a4ffcef29e16475f020b9a199b93007f26d4",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "786031b3-d6e4-4ca8-b7a6-11d0b810a9fd",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "73871d2c-0a86-4c3f-b06c-7f577a440e6d",
+                            "frames": [
+                                {
+                                    "id": "bcb4e763-0e3a-4664-801e-2239e2f6fed4",
+                                    "tiles": [
+                                        {
+                                            "id": "fae0aef8-7bb7-4545-8c78-8cd0bab21015",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "afb688f3-9747-47f4-bc24-33cc39aba72e",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "19a26d5c-6b61-4343-b768-52c5e8ab91e1",
+                            "frames": [
+                                {
+                                    "id": "8c28fbfb-42d6-40d6-826e-5d30b2008c79",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "9c903f88-b79a-44a2-838a-83b7cf4efd36",
+                            "frames": [
+                                {
+                                    "id": "1cf0b501-b2eb-4e94-8fbc-5e4d343b9807",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c28ba593-6364-4119-850c-e62a26ef133c",
+                            "frames": [
+                                {
+                                    "id": "1eedd74a-d484-4493-a3d8-a093fda6bd83",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0c0e75ac-7346-4231-825f-0f682f9f6aaa",
+                            "frames": [
+                                {
+                                    "id": "fa79110a-a4ff-4d82-a90e-7fe35d7215f1",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6cd26de0-4b56-440a-8b16-ff6a299d4c17",
+                            "frames": [
+                                {
+                                    "id": "2285bd21-b6d1-46f7-a160-58aa6d6c1d18",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b1cf39af-a7d6-4898-b71a-d2980d063936",
+                            "frames": [
+                                {
+                                    "id": "0bcc5aa4-93a0-434d-a16b-000f3300e245",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "99cb259c-bc45-44ba-a83d-abca5898c2f2",
+                            "frames": [
+                                {
+                                    "id": "6e0c9612-c55e-4925-a40f-4aa13a61939d",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "e9e61bf7-88fd-491d-ae01-4b7f76909108",
             "name": "torch",
             "symbol": "sprite_torch",
@@ -25999,9 +26169,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
+        "worldScrollX": 9,
         "worldScrollY": 0,
-        "zoom": 100,
+        "zoom": 88.22949376702309,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -26029,9 +26199,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            525,
+            699,
             30,
-            203
+            30
         ],
         "showNavigator": true,
         "defaultFontId": "948c169c-8e4b-491c-a5f0-66898bbf45d9",
