@@ -5,28 +5,6 @@
     "_release": "4",
     "scenes": [
         {
-            "name": "Title",
-            "backgroundId": "063cb0cd-c301-4372-b481-7875925a6bf1",
-            "tilesetId": "",
-            "width": 20,
-            "height": 18,
-            "type": "TOPDOWN",
-            "paletteIds": [],
-            "spritePaletteIds": [],
-            "collisions": [],
-            "autoFadeSpeed": 1,
-            "id": "9e19e4c6-b4e5-42e8-bba9-a27dd392f8ac",
-            "symbol": "scene_1",
-            "x": 80,
-            "y": 240,
-            "actors": [],
-            "triggers": [],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": []
-        },
-        {
             "name": "Logo",
             "backgroundId": "edb90811-a3ee-4933-8c5f-82b318cc9c4d",
             "tilesetId": "",
@@ -404,7 +382,40 @@
             "y": 40,
             "actors": [],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_DEACTIVATE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "397a2527-4f64-46c1-b900-303e5e8a86c0"
+                },
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 1,
+                        "frames": 30
+                    },
+                    "id": "b416df03-09ec-4ba3-81f2-365465623559"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
+                        "x": {
+                            "type": "number",
+                            "value": 34
+                        },
+                        "y": {
+                            "type": "number",
+                            "value": 41
+                        },
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "1bf59d19-30d2-4043-929d-01c3725619ef"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -1657,8 +1668,8 @@
             "autoFadeSpeed": 1,
             "id": "21a6e096-642b-46cb-828c-388385af04ec",
             "symbol": "scene_3",
-            "x": 296,
-            "y": 56,
+            "x": 60,
+            "y": 232,
             "actors": [],
             "triggers": [
                 {
@@ -2093,8 +2104,8 @@
             "autoFadeSpeed": 1,
             "id": "f34e9bac-5c23-4694-aad4-749a9142eafd",
             "symbol": "scene_4",
-            "x": 60,
-            "y": 470,
+            "x": 88,
+            "y": 584,
             "actors": [],
             "triggers": [
                 {
@@ -2133,7 +2144,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "Navitas Ove",
+            "name": "Navitas Overworld",
             "backgroundId": "870024c4-123e-46a5-98f2-80ef48e6879f",
             "tilesetId": "",
             "width": 56,
@@ -5291,8 +5302,8 @@
             "autoFadeSpeed": 1,
             "id": "3db37dd7-e8c3-447a-8408-431252f3d401",
             "symbol": "scene_5",
-            "x": 309.1107530267482,
-            "y": 385.13001442270445,
+            "x": 400,
+            "y": 72,
             "actors": [],
             "triggers": [
                 {
@@ -6578,7 +6589,9 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "house.png"
+            "filename": "house.png",
+            "tileColors": [],
+            "autoColor": false
         },
         {
             "id": "edb90811-a3ee-4933-8c5f-82b318cc9c4d",
@@ -9738,7 +9751,8 @@
                 4,
                 4,
                 4
-            ]
+            ],
+            "autoColor": false
         },
         {
             "id": "063cb0cd-c301-4372-b481-7875925a6bf1",
@@ -11251,9 +11265,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
-        "startX": 36,
-        "startY": 42,
+        "startSceneId": "b596e974-84ee-422b-a66d-d59863d2516c",
+        "startX": 1,
+        "startY": 1,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
@@ -11261,9 +11275,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1319,
-        "worldScrollY": 1429.5,
-        "zoom": 288.8757305946201,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 92.14658193103969,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
