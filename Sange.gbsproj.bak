@@ -8083,20 +8083,98 @@
                     ],
                     "startScript": [],
                     "updateScript": [],
-                    "hit1Script": [
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [
                         {
                             "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
                                 "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a"
                             },
-                            "id": "514a1f84-5f8a-4be1-9b10-76c2a37e5914"
+                            "id": "795fcb59-082f-496f-8598-d87cb80a4495"
                         }
                     ],
-                    "hit2Script": [],
-                    "hit3Script": [],
                     "id": "a4878f5b-4399-49d3-a4b8-5a4b91696891",
                     "x": 19,
                     "y": 32
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "237687fa-3a94-4f7b-a4bf-c3e74f881c05",
+                    "direction": "down",
+                    "moveSpeed": 0.5,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "1",
+                    "symbol": "actor_11",
+                    "script": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "31d98262-1cfe-4864-afcb-7f61f5e79e37"
+                            },
+                            "id": "d17f9307-7dc5-4c59-b5bd-da4ea3d860b8"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a"
+                            },
+                            "id": "cdf2e6d9-4996-438b-bfcb-b9102793e069"
+                        }
+                    ],
+                    "id": "f0fdfd2e-3357-45ee-bcc4-0d5a4a48530d",
+                    "x": 7,
+                    "y": 18
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "237687fa-3a94-4f7b-a4bf-c3e74f881c05",
+                    "direction": "down",
+                    "moveSpeed": 0.5,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "1",
+                    "symbol": "actor_12",
+                    "script": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "31d98262-1cfe-4864-afcb-7f61f5e79e37"
+                            },
+                            "id": "905eae7c-3d88-47bb-a7d2-37d1f90727e2"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a"
+                            },
+                            "id": "a96f7891-0eb8-4670-9ecc-60b73acd2b2c"
+                        }
+                    ],
+                    "id": "b7873b2a-98f4-4a25-876a-ff34cbf57cdb",
+                    "x": 39,
+                    "y": 16
                 }
             ],
             "triggers": [
@@ -8233,7 +8311,7 @@
                             {
                                 "command": "EVENT_CALL_CUSTOM_EVENT",
                                 "args": {
-                                    "customEventId": "7f6467eb-fa9e-4cca-a974-30d52cd6a9de"
+                                    "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
                                 },
                                 "id": "8e84ef36-b7e6-4de5-9d47-bb5e339a655f"
                             }
@@ -18736,7 +18814,7 @@
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
-            "boundsY": 0,
+            "boundsY": -4,
             "boundsWidth": 16,
             "boundsHeight": 16,
             "animSpeed": 15
@@ -18862,7 +18940,7 @@
             "numTiles": 2,
             "canvasWidth": 16,
             "canvasHeight": 16,
-            "boundsX": 0,
+            "boundsX": -6,
             "boundsY": 0,
             "boundsWidth": 16,
             "boundsHeight": 16,
@@ -18989,7 +19067,7 @@
             "numTiles": 2,
             "canvasWidth": 16,
             "canvasHeight": 16,
-            "boundsX": 0,
+            "boundsX": 6,
             "boundsY": 0,
             "boundsWidth": 16,
             "boundsHeight": 16,
@@ -19117,7 +19195,7 @@
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
-            "boundsY": 0,
+            "boundsY": 6,
             "boundsWidth": 16,
             "boundsHeight": 16,
             "animSpeed": 15
@@ -19448,7 +19526,8 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": false,
+                        "__comment": false
                     },
                     "children": {
                         "true": []
@@ -19460,7 +19539,8 @@
                     "args": {
                         "time": 0.1,
                         "frames": 30,
-                        "__collapse": true
+                        "__collapse": true,
+                        "__comment": false
                     },
                     "id": "797612a3-1d8d-4ebe-9a30-6a6572270aa5"
                 },
@@ -19496,7 +19576,7 @@
                                     "animSpeed": 255,
                                     "lifeTime": 0.2,
                                     "loopAnim": true,
-                                    "destroyOnHit": true,
+                                    "destroyOnHit": false,
                                     "collisionGroup": "3",
                                     "collisionMask": [
                                         "1",
@@ -19536,12 +19616,12 @@
                                                 "angle": 0,
                                                 "angleVariable": "V0",
                                                 "targetActorId": "$self$",
-                                                "initialOffset": 11,
+                                                "initialOffset": 12,
                                                 "speed": 0,
                                                 "animSpeed": 255,
                                                 "lifeTime": 0.2,
                                                 "loopAnim": true,
-                                                "destroyOnHit": true,
+                                                "destroyOnHit": false,
                                                 "collisionGroup": "3",
                                                 "collisionMask": [
                                                     "1",
@@ -19577,19 +19657,19 @@
                                                 "spriteStateId": "",
                                                 "actorId": "$self$",
                                                 "x": 0,
-                                                "y": 10,
+                                                "y": 0,
                                                 "directionType": "direction",
                                                 "otherActorId": "$self$",
                                                 "direction": "up",
                                                 "angle": 0,
                                                 "angleVariable": "V0",
                                                 "targetActorId": "$self$",
-                                                "initialOffset": 0,
+                                                "initialOffset": 10,
                                                 "speed": 0,
                                                 "animSpeed": 255,
                                                 "lifeTime": 0.2,
                                                 "loopAnim": true,
-                                                "destroyOnHit": true,
+                                                "destroyOnHit": false,
                                                 "collisionGroup": "3",
                                                 "collisionMask": [
                                                     "1",
@@ -19625,19 +19705,19 @@
                                                 "spriteStateId": "",
                                                 "actorId": "$self$",
                                                 "x": 0,
-                                                "y": -12,
+                                                "y": 0,
                                                 "directionType": "direction",
                                                 "otherActorId": "$self$",
                                                 "direction": "down",
                                                 "angle": 0,
                                                 "angleVariable": "V0",
                                                 "targetActorId": "$self$",
-                                                "initialOffset": 0,
+                                                "initialOffset": 14,
                                                 "speed": 0,
                                                 "animSpeed": 255,
                                                 "lifeTime": 0.2,
                                                 "loopAnim": true,
-                                                "destroyOnHit": true,
+                                                "destroyOnHit": false,
                                                 "collisionGroup": "3",
                                                 "collisionMask": [
                                                     "1",
@@ -19709,7 +19789,7 @@
                                     "y": 0,
                                     "directionType": "direction",
                                     "otherActorId": "$self$",
-                                    "direction": "left",
+                                    "direction": "right",
                                     "angle": 0,
                                     "angleVariable": "V0",
                                     "targetActorId": "$self$",
