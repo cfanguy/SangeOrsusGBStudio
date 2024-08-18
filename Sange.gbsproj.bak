@@ -9700,7 +9700,123 @@
             "symbol": "scene_8",
             "x": 864,
             "y": 64,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Guard Front",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_14",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "None may pass\nwhile monsters",
+                                    "are in the forest!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "5f5d908c-01e0-45ed-8bad-216c4115127b"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "a4d83b92-90d9-490f-8ea1-1a65dd31dc3f",
+                    "x": 9,
+                    "y": 11
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9c5e55c9-a1c3-4cc9-a684-c5f190ce65ec",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_15",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "56fbd6ed-68ea-4ca1-8f63-57bbbca0e2db",
+                    "x": 7,
+                    "y": 11
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9c5e55c9-a1c3-4cc9-a684-c5f190ce65ec",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_17",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "5be70aa8-1629-4ccc-931e-ad7dbc50db6e",
+                    "x": 11,
+                    "y": 11
+                },
+                {
+                    "name": "Guard Behind",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_18",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Well done!\nYou may pass!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "7dd82ed0-e206-465c-adba-133b3532c0de"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "818dfcec-3d42-4c96-9ad5-1b76e9231cd9",
+                    "x": 7,
+                    "y": 7
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -9730,9 +9846,84 @@
                         }
                     ],
                     "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "62c2e910-8595-46cc-8f8e-798ed0d701a5",
+                    "x": 7,
+                    "y": 0,
+                    "symbol": "trigger_15",
+                    "width": 6,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Demo Complete!\nCongratulations!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "23f3bd4a-ab30-453e-83ec-5768b1ae5e5c"
+                        }
+                    ],
+                    "leaveScript": []
                 }
             ],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_IF",
+                    "args": {
+                        "condition": {
+                            "type": "variable",
+                            "value": "2"
+                        },
+                        "__collapseElse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_ACTOR_HIDE",
+                                "args": {
+                                    "actorId": "a4d83b92-90d9-490f-8ea1-1a65dd31dc3f"
+                                },
+                                "id": "a99d8a2f-4ca3-4caf-9da5-dcfedaaf457e"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_DEACTIVATE",
+                                "args": {
+                                    "actorId": "a4d83b92-90d9-490f-8ea1-1a65dd31dc3f"
+                                },
+                                "id": "d49b15b7-e554-422b-8cbd-63804be2066c"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_SHOW",
+                                "args": {
+                                    "actorId": "818dfcec-3d42-4c96-9ad5-1b76e9231cd9"
+                                },
+                                "id": "b415c62e-0247-423d-b70d-9085ca1d299b"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "command": "EVENT_ACTOR_HIDE",
+                                "args": {
+                                    "actorId": "818dfcec-3d42-4c96-9ad5-1b76e9231cd9"
+                                },
+                                "id": "acc0a6b5-af70-43d5-bd4b-e0fb4311c704"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_SHOW",
+                                "args": {
+                                    "actorId": "a4d83b92-90d9-490f-8ea1-1a65dd31dc3f"
+                                },
+                                "id": "cd2eaa87-66dd-4e36-9c8e-0b17e6d31756"
+                            }
+                        ]
+                    },
+                    "id": "f0078c30-dbee-48ae-9a1a-b7267aa8b45a"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
