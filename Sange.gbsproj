@@ -404,11 +404,11 @@
                         "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
                         "x": {
                             "type": "number",
-                            "value": 43
+                            "value": 33
                         },
                         "y": {
                             "type": "number",
-                            "value": 20
+                            "value": 42
                         },
                         "direction": "",
                         "fadeSpeed": "2"
@@ -22880,7 +22880,7 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
         "worldScrollX": 9,
-        "worldScrollY": 162,
+        "worldScrollY": 230,
         "zoom": 100,
         "sgbEnabled": false,
         "customHead": "",

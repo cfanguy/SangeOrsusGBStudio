@@ -8305,7 +8305,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "You Defeated All\nThe Enemies!"
+                                                "You Defeated All\nThe Monsters!"
                                             ],
                                             "avatarId": ""
                                         },
@@ -8470,7 +8470,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "You Defeated All\nThe Enemies!"
+                                                "You Defeated All\nThe Monsters!"
                                             ],
                                             "avatarId": ""
                                         },
@@ -8635,7 +8635,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "You Defeated All\nThe Enemies!"
+                                                "You Defeated All\nThe Monsters!"
                                             ],
                                             "avatarId": ""
                                         },
@@ -22879,9 +22879,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1203.5,
-        "worldScrollY": 0,
-        "zoom": 196.5071403682232,
+        "worldScrollX": 9,
+        "worldScrollY": 162,
+        "zoom": 100,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
