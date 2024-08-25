@@ -11926,7 +11926,8 @@
                 7,
                 7,
                 7
-            ]
+            ],
+            "autoColor": false
         },
         {
             "id": "c0d55ab3-9327-401e-a2ac-dad525f398ca",
@@ -19930,6 +19931,37 @@
                                             "priority": false
                                         }
                                     ]
+                                },
+                                {
+                                    "id": "6e06d52e-5dc8-4a51-b789-82c342276fa2",
+                                    "tiles": [
+                                        {
+                                            "id": "c5fed8ae-b56d-4080-9988-d1d30ecb1402",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "fdabaa4b-b618-4315-8ba5-243995319467",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -22758,6 +22790,16 @@
             "symbol": "var_player_y"
         },
         {
+            "id": "2",
+            "name": "EnemiesDefeated",
+            "symbol": "var_enemiesdefeated"
+        },
+        {
+            "id": "3",
+            "name": "ForestEnemies",
+            "symbol": "var_forestenemies"
+        },
+        {
             "id": "844635bc-2ad5-46c9-982d-7754e15f6d84__L1",
             "name": "Local 1",
             "symbol": "var_local_1"
@@ -22818,11 +22860,6 @@
             "symbol": "var_local_11"
         },
         {
-            "id": "2",
-            "name": "EnemiesDefeated",
-            "symbol": "var_enemiesdefeated"
-        },
-        {
             "id": "e329a75b-a1ce-4772-8d59-8b7cb7eb418f__L0",
             "name": "Local 0",
             "symbol": "var_local_12"
@@ -22831,11 +22868,6 @@
             "id": "7d7d15a2-7565-4538-a4bc-55f948595fd6__L0",
             "name": "Local 0",
             "symbol": "var_local_13"
-        },
-        {
-            "id": "3",
-            "name": "ForestEnemies",
-            "symbol": "var_forestenemies"
         },
         {
             "id": "4a31951e-cba1-46ad-ba79-01f258694ba5__L1",
@@ -22879,8 +22911,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 9,
-        "worldScrollY": 230,
+        "worldScrollX": 8,
+        "worldScrollY": 67,
         "zoom": 100,
         "sgbEnabled": false,
         "customHead": "",
