@@ -1,0 +1,30 @@
+{
+  "_resourceType": "script",
+  "id": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a",
+  "name": "Projectile Hit Enemy",
+  "symbol": "script_4",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "0"
+      },
+      "id": "767d97e1-8f6b-4503-8f49-35ae530ce1e8"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "0"
+      },
+      "id": "c9d592aa-0f9c-46f8-a92d-fb1035956bc5"
+    }
+  ]
+}

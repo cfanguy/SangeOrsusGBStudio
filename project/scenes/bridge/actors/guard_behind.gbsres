@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "818dfcec-3d42-4c96-9ad5-1b76e9231cd9",
+  "_index": 3,
+  "symbol": "actor_18",
+  "prefabId": "",
+  "name": "Guard Behind",
+  "x": 7,
+  "y": 7,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Well done!\nYou may pass!"
+        ],
+        "avatarId": ""
+      },
+      "id": "7dd82ed0-e206-465c-adba-133b3532c0de"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

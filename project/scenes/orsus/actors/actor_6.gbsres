@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "a1e26904-ba56-4246-900b-aaa4a255d4d7",
+  "_index": 5,
+  "symbol": "actor_23",
+  "prefabId": "",
+  "name": "",
+  "x": 22,
+  "y": 29,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "86488306-d714-47b7-8fee-79c9040a67a0",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Town of Orsus"
+        ],
+        "avatarId": ""
+      },
+      "id": "e7a5e423-0f56-4e9e-8def-b5af32057e5e"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

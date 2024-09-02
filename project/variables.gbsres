@@ -1,0 +1,115 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Player X",
+      "symbol": "var_player_x_0"
+    },
+    {
+      "id": "1",
+      "name": "Player Y",
+      "symbol": "var_player_y"
+    },
+    {
+      "id": "2",
+      "name": "EnemiesDefeated",
+      "symbol": "var_enemiesdefeated"
+    },
+    {
+      "id": "3",
+      "name": "ForestEnemies",
+      "symbol": "var_forestenemies"
+    },
+    {
+      "id": "844635bc-2ad5-46c9-982d-7754e15f6d84__L1",
+      "name": "Local 1",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "11b42d42-ed55-4c9d-81fd-58e9cd70468b__L1",
+      "name": "Local 1",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "d265b35d-8667-4334-8759-394ba3d7c239__L1",
+      "name": "Local 1",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "661477af-a370-4356-82f8-6fd347758f5c__L1",
+      "name": "Local 1",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "a38317e7-ad7c-41f3-9442-79bae105ab54__L1",
+      "name": "Local 1",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "eccd9d49-cf98-46ff-aacf-7bdb878820f2__L1",
+      "name": "Local 1",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "63931101-0a3b-4d9a-8728-3c1725f08bef__L1",
+      "name": "Local 1",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "d5d9120b-81d5-4f68-88a0-5f826c471db7__L1",
+      "name": "Local 1",
+      "symbol": "var_local_7"
+    },
+    {
+      "id": "5a528ae9-5cfe-4089-b712-a00e78118e1c__L1",
+      "name": "Local 1",
+      "symbol": "var_local_8"
+    },
+    {
+      "id": "41d4704b-6014-40a3-b45a-cb336da7f565__L1",
+      "name": "Local 1",
+      "symbol": "var_local_9"
+    },
+    {
+      "id": "fd471024-e808-4d46-8413-87420424fe0d__L1",
+      "name": "Local 1",
+      "symbol": "var_local_10"
+    },
+    {
+      "id": "3456725a-6c7c-4fc9-ab0a-10d13bea9776__L1",
+      "name": "Local 1",
+      "symbol": "var_local_11"
+    },
+    {
+      "id": "e329a75b-a1ce-4772-8d59-8b7cb7eb418f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_12"
+    },
+    {
+      "id": "7d7d15a2-7565-4538-a4bc-55f948595fd6__L0",
+      "name": "Local 0",
+      "symbol": "var_local_13"
+    },
+    {
+      "id": "4a31951e-cba1-46ad-ba79-01f258694ba5__L1",
+      "name": "Local 1",
+      "symbol": "var_local_14"
+    },
+    {
+      "id": "47dffdcb-1ae4-41fe-afaa-e83393337651__L1",
+      "name": "Local 1",
+      "symbol": "var_local_15"
+    },
+    {
+      "id": "e43b275a-73fd-43c8-b0f8-bbef859e164d__L1",
+      "name": "Local 1",
+      "symbol": "var_local_16"
+    },
+    {
+      "id": "9f0dac65-dcd3-44df-b97a-545818787b47__L1",
+      "name": "Local 1",
+      "symbol": "var_local_17"
+    }
+  ]
+}

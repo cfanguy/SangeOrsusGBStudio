@@ -1,0 +1,55 @@
+{
+  "_resourceType": "scene",
+  "id": "3db37dd7-e8c3-447a-8408-431252f3d401",
+  "_index": 3,
+  "type": "TOPDOWN",
+  "name": "Navitas Island",
+  "symbol": "scene_5",
+  "x": 512,
+  "y": 64,
+  "width": 56,
+  "height": 56,
+  "backgroundId": "7fbe35ff-ce92-436d-a0c3-0feba5210119",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "036a200b-ea33-4c38-acc1-8ee0baaa70e6",
+    "183e89db-15a2-4fc1-924e-e4c36d965593"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "2"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "b11f1646-eb08-4eec-9775-d56d07a162b4"
+            },
+            "id": "1ccf02bc-c3d5-4e8c-b03d-84a83b3703fc"
+          }
+        ],
+        "false": []
+      },
+      "id": "14e28a44-822d-4daa-83e2-df4a89626d89"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f2b+002+0f36+002+0f36+002+0f36+002+0f36+002+0f2d+007+0f2+002+0f2c+009+0f!002+0f2b+00a+0f!002+0f2b+00d+0f2b+00d+0f2b+00f+0f29+0013+0f24+0016+0f21+0018+0f14+0024+0f13+0017+0f8+007+0f11+00e+0f2+008+0f8+007+0f10+00e+0f3+008+0f8+006+0fe+0010+0f8+0012+0fe+006+0f4+005+0fa+0011+0fe+006+0f5+003+0fc+00f+0fe+006+0f6+002+0fd+00e+0ff+003+0f19+00c+0f10+003+0f1a+00b+0ff+003+0f1c+00a+0fe+004+0f1c+00a+0fc+006+0f11+0015+0fb+006+0f12+0016+0f9+005+0f10+001a+0f7+007+0f11+001a+0f5+007+0f12+001b+0f4+003+0f16+001b+0f3+004+0f17+001a+0f3+003+0f18+0019+0f4+002+0f16+001a+0f6+002+0f17+0019+0f6+00!0f18+0018+0f7+006+0f10+001b+0f7+006+0f11+001a+0f8+004+0f12+001a+0f9+005+0fa+0021+0f9+004+0fb+0020+0f9+003+0fc+0020+0f8+005+0f4+0027+0f7+006+0f5+0026+0f8+004+0f6+0025+0f9+00c+0f3+0020+0f9+00c+0f3+001f+0f9+00c+0f5+0016+0f4+004+0f9+00c+0f6+003+0f3+008+0f1a+007+0f10+007+0f1b+006+0f10+007+0f31+006+0fbf+"
+}

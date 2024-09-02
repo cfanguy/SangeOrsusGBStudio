@@ -1,0 +1,39 @@
+{
+  "_resourceType": "actor",
+  "id": "a4d83b92-90d9-490f-8ea1-1a65dd31dc3f",
+  "_index": 0,
+  "symbol": "actor_14",
+  "prefabId": "",
+  "name": "Guard Front",
+  "x": 9,
+  "y": 11,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "None may pass\nwhile monsters",
+          "are in the forest!"
+        ],
+        "avatarId": ""
+      },
+      "id": "5f5d908c-01e0-45ed-8bad-216c4115127b"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

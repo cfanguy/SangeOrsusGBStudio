@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ea999098-26e2-4952-9934-0c29f97e1c63",
+  "name": "top_forest",
+  "symbol": "bg_top_forest",
+  "width": 46,
+  "height": 40,
+  "imageWidth": 368,
+  "imageHeight": 320,
+  "filename": "top_forest.png",
+  "tileColors": "01730+",
+  "autoColor": false
+}

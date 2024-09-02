@@ -1,0 +1,46 @@
+{
+  "_resourceType": "scene",
+  "id": "6538b294-d21c-4724-a04f-37aadc1cf5ac",
+  "_index": 6,
+  "type": "TOPDOWN",
+  "name": "House Fixed",
+  "symbol": "scene_7",
+  "x": 264,
+  "y": 568,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "60b193a5-343a-4a33-82fd-ee07829c56ef",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
+            },
+            "id": "5770bc55-ae25-4501-98d3-014a3a5dec48"
+          }
+        ]
+      },
+      "id": "99c377f1-b498-4e77-909a-33941c6fe514"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "003d+0f12+002+0f!0010+0f!002+0f!007+0f!008+0f!002+0f!003+0f!007+0f!004+0f!002+0f!0010+0f!002+0f2+00f+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!00!0f2+009+0f2+002+0f!002+0f!00!0f2+009+0f2+002+0f!002+0f8+002+0f8+0029+"
+}

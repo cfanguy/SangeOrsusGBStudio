@@ -1,0 +1,10 @@
+{
+  "_resourceType": "script",
+  "id": "31d98262-1cfe-4864-afcb-7f61f5e79e37",
+  "name": "Enemy Hit Player",
+  "symbol": "script_3",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": []
+}

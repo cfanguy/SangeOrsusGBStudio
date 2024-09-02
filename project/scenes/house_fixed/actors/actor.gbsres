@@ -1,0 +1,39 @@
+{
+  "_resourceType": "actor",
+  "id": "7d7d15a2-7565-4538-a4bc-55f948595fd6",
+  "_index": 0,
+  "symbol": "actor_16",
+  "prefabId": "",
+  "name": "",
+  "x": 15,
+  "y": 7,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "180a019b-c49e-42dc-a974-b8628119d04c",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Thank You! The\nbridge past the",
+          "forest is now\nopen!"
+        ],
+        "avatarId": ""
+      },
+      "id": "a9a0c7c3-b3f6-429b-bdfc-215f99e15396"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

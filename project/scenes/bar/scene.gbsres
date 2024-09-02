@@ -1,0 +1,62 @@
+{
+  "_resourceType": "scene",
+  "id": "0e773dd3-263d-4960-84f8-7af45b6bba42",
+  "_index": 4,
+  "type": "TOPDOWN",
+  "name": "Bar",
+  "symbol": "scene_0",
+  "x": 64,
+  "y": 816,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "0d70df96-64b6-4c87-83c8-c1091091cd51",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "f9713d01-9acd-4a16-bc7b-9f21c0e7f6da",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      },
+      "id": "6713ee37-5559-4a0d-9e1e-c2d266d9cde6"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "7f6467eb-fa9e-4cca-a974-30d52cd6a9de"
+            },
+            "id": "e1c96e3f-7b0b-4a42-85d2-8693ace7a5de"
+          }
+        ]
+      },
+      "id": "56600201-d0db-4b7a-8686-5381d7fa61ac"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0014+0f14+001b+0f6+00e+0f6+00f9+0f12+"
+}

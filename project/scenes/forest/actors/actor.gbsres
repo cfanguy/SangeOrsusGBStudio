@@ -1,0 +1,169 @@
+{
+  "_resourceType": "actor",
+  "id": "844635bc-2ad5-46c9-982d-7754e15f6d84",
+  "_index": 0,
+  "symbol": "actor_11",
+  "prefabId": "",
+  "name": "",
+  "x": 23,
+  "y": 19,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "237687fa-3a94-4f7b-a4bf-c3e74f881c05",
+  "paletteId": "",
+  "direction": "right",
+  "moveSpeed": 0.5,
+  "animSpeed": 31,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "31d98262-1cfe-4864-afcb-7f61f5e79e37"
+      },
+      "id": "87c50295-6db9-48cf-892e-f9900292b783"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 6,
+        "units": "frames",
+        "__collapse": false
+      },
+      "id": "88b24c7e-56b3-4f83-93e1-a6fae847ac2a"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operator": "<=",
+        "distance": {
+          "type": "number",
+          "value": 8
+        },
+        "otherActorId": "$self$",
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "player",
+              "vectorX": "0",
+              "vectorY": "1"
+            },
+            "id": "530976e2-f555-4a15-9a71-4be11093718a"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d894d68d-4e47-420d-b6db-20c75905a84b",
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "L1"
+              },
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L0"
+              }
+            },
+            "id": "5eef0373-fb1b-42f4-9791-0204da2a8b7d"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 10,
+              "units": "frames"
+            },
+            "id": "fd3aeaa1-5b53-4cb1-8648-20503056d597"
+          }
+        ]
+      },
+      "id": "b394213e-2d7d-46c7-8230-55f70acd885a"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a",
+        "$actor[0]$": "$self$"
+      },
+      "id": "280a73f3-b57a-4e06-9bdd-b798381f2d88"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "sub",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        }
+      },
+      "id": "a7c30302-4162-4181-8d68-f63bea21dce4"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "98c3a497-63ea-4ec8-b61f-a3ea2437b7f8"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You Defeated All\nThe Monsters!"
+              ],
+              "avatarId": ""
+            },
+            "id": "351fbaa9-e3d3-4c58-b14f-c04a496a320c"
+          }
+        ],
+        "false": []
+      },
+      "id": "ea179e7d-670d-4436-8eab-6a2b73e415d9"
+    }
+  ]
+}
