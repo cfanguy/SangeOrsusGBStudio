@@ -1,15 +1,15 @@
 {
   "_resourceType": "scene",
-  "id": "f34e9bac-5c23-4694-aad4-749a9142eafd",
-  "_index": 2,
+  "id": "6538b294-d21c-4724-a04f-37aadc1cf5ac",
+  "_index": 6,
   "type": "TOPDOWN",
-  "name": "House",
-  "symbol": "scene_4",
-  "x": 60,
-  "y": 568,
-  "width": 20,
+  "name": "Guild Fixed",
+  "symbol": "scene_7",
+  "x": 64,
+  "y": 752,
+  "width": 45,
   "height": 18,
-  "backgroundId": "60b193a5-343a-4a33-82fd-ee07829c56ef",
+  "backgroundId": "a0baeaf2-9ab3-4dee-bf93-8d23ff8d764d",
   "tilesetId": "",
   "paletteIds": [],
   "spritePaletteIds": [],
@@ -32,15 +32,15 @@
             "args": {
               "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
             },
-            "id": "ae842fa9-edf0-4d00-8509-2f0406d658de"
+            "id": "5770bc55-ae25-4501-98d3-014a3a5dec48"
           }
         ]
       },
-      "id": "b8673650-6b54-4ac3-b03a-52fc08786097"
+      "id": "99c377f1-b498-4e77-909a-33941c6fe514"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "003d+0f12+002+0f!0010+0f!002+0f!007+0f!008+0f!002+0f!003+0f!007+0f!004+0f!002+0f!0010+0f!002+0f2+00f+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!00!0f2+009+0f2+002+0f!002+0f!00!0f2+009+0f2+002+0f!002+0f8+002+0f8+0029+"
+  "collisions": "005b+0f2b+002+0f2b+002+0f!002c+0f!002c+0f!002c+0f!002c+0f!002c+0f!002c+0f!002c+0f!0010+0fa+0012+0f!0019+0f!0012+0f!00!0f2+009+0f2+00b+0f!00!0f2+009+0f2+004+0f!00!0f2+009+0f2+00b+0f!00!0f2+004+0f2+003+0f2+005+0f!002+0f4+002+0f3+002+0f2+00a+0f!002+0f4+002+0f3+002+0f2+005b+"
 }

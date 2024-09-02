@@ -5,7 +5,7 @@
   "symbol": "actor_9",
   "prefabId": "",
   "name": "",
-  "x": 15,
+  "x": 29,
   "y": 7,
   "frame": 0,
   "animate": false,
@@ -23,8 +23,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Monsters from the \nnorthern forest...",
-          "did this!"
+          "Please help us!"
         ],
         "avatarId": ""
       },

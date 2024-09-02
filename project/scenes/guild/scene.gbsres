@@ -1,0 +1,46 @@
+{
+  "_resourceType": "scene",
+  "id": "f34e9bac-5c23-4694-aad4-749a9142eafd",
+  "_index": 2,
+  "type": "TOPDOWN",
+  "name": "Guild",
+  "symbol": "scene_4",
+  "x": 60,
+  "y": 560,
+  "width": 45,
+  "height": 18,
+  "backgroundId": "a0baeaf2-9ab3-4dee-bf93-8d23ff8d764d",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
+            },
+            "id": "ae842fa9-edf0-4d00-8509-2f0406d658de"
+          }
+        ]
+      },
+      "id": "b8673650-6b54-4ac3-b03a-52fc08786097"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "005b+0f2c+00!0f2c+00!0f!002a+0f!00!0f!005+0f!0024+0f!00!0f!00e+0f!001b+0f!00!0f!0024+0f!005+0f!00!0f2+001f+0f!007+0f!00!0f!00!0f!009+0f!0020+0f!00!0f!001d+0f!00c+0f!00!0f!0010+0fa+0010+0f!00!0f!0010+0f!008+0f!0010+0f!00!0f!00!0f2+009+0f2+002+0f!008+0f!00!0f2+009+0f2+002+0f!00!0f!00!0f2+009+0f2+002+0f!008+0f!00!0f2+004+0f2+003+0f2+002+0f!002+0f!002+0f4+002+0f3+002+0f2+00a+0f!002+0f4+002+0f3+002+0f2+005b+"
+}

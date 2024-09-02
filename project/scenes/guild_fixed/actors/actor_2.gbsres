@@ -1,0 +1,55 @@
+{
+  "_resourceType": "actor",
+  "id": "3b80c23f-ec65-43fa-9159-c73ff7d9d9fb",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "8bb24f02-fd4b-42af-bee1-b257ed595383",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_28",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Great Work!\nWe have put out",
+          "the fires here,\nbut need more time",
+          "to fix the town.\nLeave this to us."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "90d99855-2b64-4431-b64d-3f29a8dd3e16"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 21,
+  "y": 5,
+  "_index": 1
+}

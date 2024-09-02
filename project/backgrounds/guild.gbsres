@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a0baeaf2-9ab3-4dee-bf93-8d23ff8d764d",
+  "name": "guild",
+  "symbol": "bg_guild",
+  "width": 45,
+  "height": 18,
+  "imageWidth": 360,
+  "imageHeight": 144,
+  "filename": "guild.png",
+  "tileColors": ""
+}
