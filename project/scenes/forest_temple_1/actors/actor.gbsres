@@ -1,30 +1,30 @@
 {
   "_resourceType": "actor",
-  "id": "9f0dac65-dcd3-44df-b97a-545818787b47",
-  "_index": 2,
-  "symbol": "actor_13",
-  "prefabId": "",
+  "id": "bb0c8be5-227c-4aee-97e1-92afb777b52c",
   "name": "",
-  "x": 3,
-  "y": 12,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "09cf1dbb-d3cc-458d-8347-d35e8512a6e0",
-  "paletteId": "",
+  "spriteSheetId": "237687fa-3a94-4f7b-a4bf-c3e74f881c05",
+  "prefabId": "",
   "direction": "right",
-  "moveSpeed": 1,
-  "animSpeed": 7,
+  "moveSpeed": 0.5,
+  "animSpeed": 31,
+  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "1",
   "prefabScriptOverrides": {},
+  "_index": 0,
+  "symbol": "actor_31",
+  "x": 14,
+  "y": 5,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "31d98262-1cfe-4864-afcb-7f61f5e79e37"
       },
-      "id": "2c3b0d96-db82-4f2e-a222-e0df3a0b656d"
+      "id": "04eba620-0e9c-4430-a361-813ebf563e2a"
     }
   ],
   "startScript": [],
@@ -37,7 +37,7 @@
         "units": "frames",
         "__collapse": false
       },
-      "id": "210f3ed6-ffbd-4c42-8d16-57bcd822df92"
+      "id": "faa1aae2-5c2e-4b55-9ec5-19bf1357cebe"
     },
     {
       "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
@@ -60,7 +60,7 @@
               "vectorX": "0",
               "vectorY": "1"
             },
-            "id": "5592249d-64c1-4512-bbf5-ac457667fab4"
+            "id": "09c9c78e-4d46-4b9c-b3c0-c97ab061be3a"
           },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -75,7 +75,7 @@
                 "value": "L0"
               }
             },
-            "id": "89764c5f-3286-440d-812d-ef9d4a86b9bd"
+            "id": "40ecfcc2-b9a1-4dfe-ae27-7dcbb071d4d8"
           }
         ],
         "false": [
@@ -86,11 +86,11 @@
               "frames": 10,
               "units": "frames"
             },
-            "id": "ecb5e687-4efd-4a70-9da4-1abe1fca1fa0"
+            "id": "6088ac05-bd0d-49b9-b95e-28456e834f39"
           }
         ]
       },
-      "id": "c5ba5f21-f68e-4645-a655-91b4662b2069"
+      "id": "0f6b914b-8cc9-4782-be46-da3bf406a935"
     }
   ],
   "hit1Script": [],
@@ -102,68 +102,7 @@
         "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a",
         "$actor[0]$": "$self$"
       },
-      "id": "7e6b1317-2516-4b41-b408-48c549e61089"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "3",
-        "value": {
-          "type": "sub",
-          "valueA": {
-            "type": "variable",
-            "value": "3"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 1
-          }
-        }
-      },
-      "id": "2a456be0-4976-4a36-99a1-5eb55448d7cf"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "3"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 0
-          }
-        },
-        "__collapseElse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "2",
-              "value": {
-                "type": "true"
-              }
-            },
-            "id": "aa2e0a75-9747-48aa-a4a1-d94a5d9a63ec"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "You Defeated All\nThe Monsters!"
-              ],
-              "avatarId": ""
-            },
-            "id": "8a47e9d0-ebac-455e-9543-baa2da1be844"
-          }
-        ],
-        "false": []
-      },
-      "id": "6cc0e6a0-91b0-4e94-b3a9-cb297627e94b"
+      "id": "599ee531-0a25-4d84-a082-7fc221dd8524"
     }
   ]
 }

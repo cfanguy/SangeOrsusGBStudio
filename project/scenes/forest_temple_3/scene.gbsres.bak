@@ -1,0 +1,46 @@
+{
+  "_resourceType": "scene",
+  "id": "0aa8fc9d-b6fb-4d2c-ab1d-9b53f34ceb1c",
+  "_index": 10,
+  "name": "Forest Temple 3",
+  "backgroundId": "36b72df8-8919-4f60-a27f-93714f2dbf2c",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f7e+008+0fc+008+0f6+0028+0f6+008+0fc+008+0f7e+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 1056,
+  "y": 784,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
+            },
+            "id": "6df24807-bea4-43f4-8252-e369aad2c5de"
+          }
+        ]
+      },
+      "id": "9b86d478-56e8-44a3-8739-e648ad52c864"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

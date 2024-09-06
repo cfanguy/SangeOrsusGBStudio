@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "36b72df8-8919-4f60-a27f-93714f2dbf2c",
+  "name": "forest_temple3",
+  "symbol": "bg_forest_temple3",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "forest_temple3.png",
+  "tileColors": "01168+"
+}

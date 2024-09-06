@@ -1,0 +1,46 @@
+{
+  "_resourceType": "scene",
+  "id": "56e09ddd-4b80-4ad6-9606-58b262c022ac",
+  "_index": 7,
+  "name": "Forest Temple 1",
+  "backgroundId": "2b064c0b-a78a-42c1-9f49-1ad7cae55382",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2a+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f2+0012+0f2+0012+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0fb+002+0f12+002+0f9+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 1064,
+  "y": 576,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
+            },
+            "id": "354a2741-1df6-453f-a37e-2e24796d47ac"
+          }
+        ]
+      },
+      "id": "4686790f-5dd3-4072-8407-ede5368a6ad5"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
