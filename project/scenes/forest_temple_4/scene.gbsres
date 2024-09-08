@@ -46,6 +46,44 @@
         "$actor[0]$": "80f11022-f196-4a41-8114-309e5a8b3bcf"
       },
       "id": "f61309f3-4c2d-4662-86e9-ee0497709df5"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "How did you get\npast my minions?",
+          "After dealing with\nyou, I'll finish",
+          "that town!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5e105601-c8d2-4d1a-af22-73d70e1f8d85"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "f0be6f7f-b164-4032-9088-cb98804617e9"
     }
   ],
   "playerHit1Script": [],

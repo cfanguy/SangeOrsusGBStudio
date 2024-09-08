@@ -7,8 +7,8 @@
   "spriteSheetId": "7a75a880-80de-4272-b013-16bca3f09a0e",
   "prefabId": "",
   "direction": "right",
-  "moveSpeed": 1,
-  "animSpeed": 7,
+  "moveSpeed": 0.75,
+  "animSpeed": 31,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
@@ -143,6 +143,16 @@
       "id": "1d009938-6552-40f1-bc1c-a881a94128fa"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "57ecff39-c5a3-4d22-8150-c4d2313e1d48"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -166,16 +176,6 @@
         "closeDelayFrames": 30
       },
       "id": "3f90c6cf-5792-4d5a-bc1f-c8ed1007a887"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "2",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "57ecff39-c5a3-4d22-8150-c4d2313e1d48"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
