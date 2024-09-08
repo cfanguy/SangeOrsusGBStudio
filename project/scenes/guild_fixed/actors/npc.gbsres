@@ -1,15 +1,15 @@
 {
   "_resourceType": "actor",
-  "id": "818dfcec-3d42-4c96-9ad5-1b76e9231cd9",
-  "_index": 3,
-  "symbol": "actor_18",
+  "id": "7d7d15a2-7565-4538-a4bc-55f948595fd6",
+  "_index": 0,
+  "symbol": "actor_16",
   "prefabId": "",
-  "name": "Guard Behind",
-  "x": 7,
-  "y": 7,
+  "name": "NPC",
+  "x": 29,
+  "y": 6,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622",
+  "spriteSheetId": "180a019b-c49e-42dc-a974-b8628119d04c",
   "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -23,11 +23,12 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Well done!\nYou may pass!"
+          "Thank You! The\nbridge past the",
+          "forest is now\nopen!"
         ],
         "avatarId": ""
       },
-      "id": "7dd82ed0-e206-465c-adba-133b3532c0de"
+      "id": "a9a0c7c3-b3f6-429b-bdfc-215f99e15396"
     }
   ],
   "startScript": [],

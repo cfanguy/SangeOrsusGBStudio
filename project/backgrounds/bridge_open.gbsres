@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "139b77b8-4a13-4457-a544-81f1173e907c",
+  "name": "bridge_open",
+  "symbol": "bg_bridge_open",
+  "width": 20,
+  "height": 20,
+  "imageWidth": 160,
+  "imageHeight": 160,
+  "filename": "bridge_open.png",
+  "tileColors": "047+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+047+"
+}

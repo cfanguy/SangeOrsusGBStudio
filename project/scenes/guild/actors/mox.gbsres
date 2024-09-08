@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "aa9a4c1f-03c9-4b0d-bbcc-b4d4a974bcbc",
-  "name": "",
+  "id": "8b05cda8-2677-4ec7-b79b-51b9d200f970",
+  "name": "Mox",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "68fa25e4-c28b-426d-b011-a37a421b5af3",
@@ -14,16 +14,15 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_29",
+  "symbol": "actor_27",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Nicely done, Sange\nWe'll stay here",
-          "to help fix the\ntown. You must go ",
-          "after the crew of\nthe Niloc. They ",
-          "went North past\nthe mountains."
+          "Good to see you\nare ok, Sange!",
+          "You must go after\nthe monsters while",
+          "we fix things \nhere!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -42,7 +41,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "3cf908a3-e48e-4f7c-861b-0042f47eb503"
+      "id": "6f60240e-096d-4336-b925-93a6457f4f45"
     }
   ],
   "startScript": [],
@@ -52,5 +51,5 @@
   "hit3Script": [],
   "x": 7,
   "y": 10,
-  "_index": 2
+  "_index": 6
 }

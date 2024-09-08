@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d3803eb6-35a2-4630-b654-010d33e91486",
+  "name": "bridge_blocked",
+  "symbol": "bg_bridge_blocked",
+  "width": 20,
+  "height": 20,
+  "imageWidth": 160,
+  "imageHeight": 160,
+  "filename": "bridge_blocked.png",
+  "tileColors": "047+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+04e+006+047+"
+}

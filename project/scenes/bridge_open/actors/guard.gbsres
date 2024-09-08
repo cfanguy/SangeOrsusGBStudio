@@ -1,33 +1,33 @@
 {
   "_resourceType": "actor",
-  "id": "e329a75b-a1ce-4772-8d59-8b7cb7eb418f",
-  "_index": 2,
-  "symbol": "actor_9",
-  "prefabId": "",
-  "name": "",
-  "x": 29,
-  "y": 5,
+  "id": "35810d96-fde8-46c6-b5f9-34fa3fee3792",
+  "name": "Guard",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "180a019b-c49e-42dc-a974-b8628119d04c",
-  "paletteId": "",
+  "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622",
+  "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
+  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
+  "_index": 0,
+  "symbol": "actor_15",
+  "x": 7,
+  "y": 13,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Please help us!"
+          "Well done!\nYou may pass!"
         ],
         "avatarId": ""
       },
-      "id": "28c20166-76c5-4201-bf2d-c3f3e0a68a0d"
+      "id": "84dd12b0-f372-4566-9cfd-6270c00371f6"
     }
   ],
   "startScript": [],
