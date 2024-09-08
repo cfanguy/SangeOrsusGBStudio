@@ -54,7 +54,7 @@
             "args": {
               "customEventId": "111511ba-4a91-4b9c-97b9-3be92ca2992c",
               "$actor[0]$": "1",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "586f1ae0-fb94-413d-ab9c-139b7f733553"
           },

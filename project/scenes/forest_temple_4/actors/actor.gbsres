@@ -132,67 +132,76 @@
     }
   ],
   "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": [
+  "hit2Script": [
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a",
-        "$actor[0]$": "$self$"
+      "command": "EVENT_GROUP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a",
+              "$actor[0]$": "$self$"
+            },
+            "id": "fc0a6906-f9f0-46c5-9ac3-2b3b10b385bf"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "2b23e92b-7f63-4c65-9c88-50f62a318cd2"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Boss of the \nForest Cleared!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "bd3a603f-c75a-418d-b756-f552653b0aa9"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
+              "x": {
+                "type": "number",
+                "value": 43
+              },
+              "y": {
+                "type": "number",
+                "value": 22
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "44dceed1-89df-4fd9-ace1-f6d3831eb474"
+          }
+        ]
       },
-      "id": "1d009938-6552-40f1-bc1c-a881a94128fa"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "2",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "57ecff39-c5a3-4d22-8150-c4d2313e1d48"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Boss of the \nForest Cleared!"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "3f90c6cf-5792-4d5a-bc1f-c8ed1007a887"
-    },
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
-        "x": {
-          "type": "number",
-          "value": 43
-        },
-        "y": {
-          "type": "number",
-          "value": 22
-        },
-        "direction": "down",
-        "fadeSpeed": "2"
-      },
-      "id": "8e3baacd-4c1a-4274-8585-e334e7ad2d46"
+      "id": "322f425c-0007-469b-b134-17376d2a2458"
     }
-  ]
+  ],
+  "hit3Script": []
 }

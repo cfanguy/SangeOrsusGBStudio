@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "21a6e096-642b-46cb-828c-388385af04ec",
   "_index": 1,
-  "type": "TOPDOWN",
+  "type": "ADVENTURE",
   "name": "Orsus",
   "symbol": "scene_3",
   "x": 60,

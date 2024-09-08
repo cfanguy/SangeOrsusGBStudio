@@ -31,7 +31,7 @@
       "args": {
         "time": 0.1,
         "frames": 30,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "id": "797612a3-1d8d-4ebe-9a30-6a6572270aa5"

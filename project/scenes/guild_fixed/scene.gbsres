@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "6538b294-d21c-4724-a04f-37aadc1cf5ac",
   "_index": 5,
-  "type": "TOPDOWN",
+  "type": "ADVENTURE",
   "name": "Guild Fixed",
   "symbol": "scene_7",
   "x": 64,

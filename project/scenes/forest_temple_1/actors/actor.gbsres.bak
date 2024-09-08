@@ -8,7 +8,7 @@
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 0.25,
-  "animSpeed": 15,
+  "animSpeed": 31,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
@@ -95,7 +95,15 @@
     }
   ],
   "hit1Script": [],
-  "hit2Script": [],
+  "hit2Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a"
+      },
+      "id": "d241b63a-a210-4bae-b777-67c956be825a"
+    }
+  ],
   "hit3Script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",

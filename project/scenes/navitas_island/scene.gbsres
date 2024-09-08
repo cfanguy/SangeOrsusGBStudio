@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "3db37dd7-e8c3-447a-8408-431252f3d401",
   "_index": 3,
-  "type": "TOPDOWN",
+  "type": "ADVENTURE",
   "name": "Navitas Island",
   "symbol": "scene_5",
   "x": 512,

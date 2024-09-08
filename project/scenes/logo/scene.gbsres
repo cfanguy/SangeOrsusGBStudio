@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "b596e974-84ee-422b-a66d-d59863d2516c",
   "_index": 0,
-  "type": "TOPDOWN",
+  "type": "ADVENTURE",
   "name": "Logo",
   "symbol": "scene_2",
   "x": 64,
