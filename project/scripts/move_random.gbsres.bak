@@ -6,7 +6,7 @@
   "variables": {
     "V0": {
       "id": "V0",
-      "name": "Variable A",
+      "name": "Temp",
       "passByReference": true
     },
     "V1": {

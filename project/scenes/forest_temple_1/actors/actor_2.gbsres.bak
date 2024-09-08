@@ -104,15 +104,7 @@
       "id": "12b840b0-5c71-4763-a019-e7cdd6c76b5d"
     }
   ],
-  "hit3Script": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a"
-      },
-      "id": "76c688e5-27a3-40e4-ae03-e461ebda6a7d"
-    }
-  ],
+  "hit3Script": [],
   "x": 6,
   "y": 6,
   "_index": 2

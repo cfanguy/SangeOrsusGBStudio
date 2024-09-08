@@ -107,15 +107,14 @@
     }
   ],
   "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": [
+  "hit2Script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a",
-        "$actor[0]$": "$self$"
+        "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a"
       },
-      "id": "6ebc69f1-338e-4be1-b2e7-a99999c3798e"
+      "id": "042a655e-bcad-4dee-82ab-105fa76e3e77"
     }
-  ]
+  ],
+  "hit3Script": []
 }

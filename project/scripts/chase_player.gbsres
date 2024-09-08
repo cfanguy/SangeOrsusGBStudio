@@ -27,12 +27,14 @@
       "args": {
         "actorId": "0",
         "x": {
-          "type": "variable",
-          "value": "0"
+          "type": "property",
+          "target": "player",
+          "property": "xpos"
         },
         "y": {
-          "type": "variable",
-          "value": "1"
+          "type": "property",
+          "target": "player",
+          "property": "ypos"
         },
         "moveType": "diagonal",
         "useCollisions": false
