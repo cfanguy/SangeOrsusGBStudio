@@ -77,13 +77,12 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "5",
+        "variable": "4",
         "value": {
-          "type": "number",
-          "value": 2
+          "type": "false"
         }
       },
-      "id": "f0be6f7f-b164-4032-9088-cb98804617e9"
+      "id": "cb3316d6-5f57-4cd8-96ac-2b132f3d4d61"
     }
   ],
   "playerHit1Script": [],

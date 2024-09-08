@@ -46,6 +46,16 @@
         "$actor[0]$": "ebad8f1c-4394-4b79-b902-05781e7e3988"
       },
       "id": "4884405a-b9bc-4ef5-900a-e108c5d0455e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "70aee93b-070c-4077-b95e-fa4c6f10d9ef"
     }
   ],
   "playerHit1Script": [],

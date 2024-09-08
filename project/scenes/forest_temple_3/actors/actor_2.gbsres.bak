@@ -31,7 +31,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Healed to Full\nHealth!"
+          "Healed to Full!"
         ],
         "__section": "text",
         "avatarId": "",

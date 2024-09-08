@@ -155,6 +155,11 @@
       "id": "99003ca0-7c7d-4d53-8c2c-9168ce883f5f__L1",
       "name": "Local 1",
       "symbol": "var_local_25"
+    },
+    {
+      "id": "5",
+      "name": "Boss HP",
+      "symbol": "var_boss_hp"
     }
   ]
 }

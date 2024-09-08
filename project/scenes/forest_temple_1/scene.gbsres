@@ -46,9 +46,20 @@
         "$actor[0]$": "eb74ab41-bbad-4b3a-bbb9-9bd4f5619a9b"
       },
       "id": "7b4c7179-2d35-48e5-9ba1-02c60f790367"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "e4e3a09a-eca3-4437-afb7-fb84e3afb84b"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
 }
