@@ -59,22 +59,6 @@
             "id": "586f1ae0-fb94-413d-ab9c-139b7f733553"
           },
           {
-            "command": "EVENT_ACTOR_MOVE_CANCEL",
-            "args": {
-              "actorId": "0",
-              "__collapse": true
-            },
-            "id": "75b2f787-b698-496f-b7a2-bc6f06f4ac51"
-          },
-          {
-            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
-            "args": {
-              "actorId": "0",
-              "__collapse": true
-            },
-            "id": "8abcaeb4-3d51-4834-bc8a-edbc48d443f4"
-          },
-          {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
               "spriteSheetId": "5ef63eb3-47d0-40c8-8994-607b723b007c",
@@ -107,14 +91,6 @@
               "__collapse": true
             },
             "id": "cf8f8a6b-9bda-4e8e-93db-6f9e4178d6bd"
-          },
-          {
-            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
-            "args": {
-              "actorId": "0",
-              "__collapse": true
-            },
-            "id": "b84772bf-0fff-401b-bc81-2081a9b84aa8"
           },
           {
             "command": "EVENT_SET_VALUE",
