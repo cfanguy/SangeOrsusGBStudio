@@ -60,6 +60,48 @@
               "spriteSheetId": "6885d42e-d510-4177-9f60-212fca0a8f89"
             },
             "id": "8069ac12-2b6b-441e-9d1a-bfa29f16eee1"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Game Over!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "93fb59b1-784e-43ac-8676-4bf7a4030ead"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
+              "x": {
+                "type": "number",
+                "value": 35
+              },
+              "y": {
+                "type": "number",
+                "value": 43
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "3b56776d-9d33-4417-b48b-4f663dcfc510"
           }
         ],
         "true1": [

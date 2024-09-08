@@ -9,6 +9,10 @@
     "0": {
       "id": "0",
       "name": "Actor A"
+    },
+    "1": {
+      "id": "1",
+      "name": "Actor B"
     }
   },
   "script": [
@@ -38,6 +42,28 @@
             "id": "7c203215-310c-4d9a-a44b-311a3e92229c"
           },
           {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "823a49b8-100c-4330-9deb-da26dafd81b6"
+            },
+            "id": "08b258f2-2bd7-4100-8eed-10489b4ea57e"
+          },
+          {
+            "command": "EVENT_DEC_VALUE",
+            "args": {
+              "variable": "3"
+            },
+            "id": "5a503eee-9620-45bf-8e5a-4a960d1d23f2"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "111511ba-4a91-4b9c-97b9-3be92ca2992c",
+              "$actor[0]$": "1"
+            },
+            "id": "586f1ae0-fb94-413d-ab9c-139b7f733553"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_CANCEL",
             "args": {
               "actorId": "0"
@@ -50,13 +76,6 @@
               "actorId": "0"
             },
             "id": "8abcaeb4-3d51-4834-bc8a-edbc48d443f4"
-          },
-          {
-            "command": "EVENT_DEC_VALUE",
-            "args": {
-              "variable": "3"
-            },
-            "id": "5a503eee-9620-45bf-8e5a-4a960d1d23f2"
           },
           {
             "command": "EVENT_CAMERA_SHAKE",
@@ -81,6 +100,13 @@
             "id": "cf8f8a6b-9bda-4e8e-93db-6f9e4178d6bd"
           },
           {
+            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+            "args": {
+              "actorId": "0"
+            },
+            "id": "b84772bf-0fff-401b-bc81-2081a9b84aa8"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "4",
@@ -90,13 +116,6 @@
               "__collapse": false
             },
             "id": "3a96daa9-4f14-48f5-b519-4a428209adf5"
-          },
-          {
-            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
-            "args": {
-              "actorId": "0"
-            },
-            "id": "b84772bf-0fff-401b-bc81-2081a9b84aa8"
           },
           {
             "command": "EVENT_STOP",
@@ -126,6 +145,13 @@
               "actorId": "0"
             },
             "id": "af4f323f-3c65-4b5e-b97e-458cb19e4085"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "823a49b8-100c-4330-9deb-da26dafd81b6"
+            },
+            "id": "272cea6c-c366-4b58-ab0f-4eefa7bc8af2"
           }
         ]
       },

@@ -4,7 +4,12 @@
   "name": "Set Player Health Sprite",
   "description": "",
   "variables": {},
-  "actors": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
   "symbol": "script_6",
   "script": [
     {
@@ -49,19 +54,54 @@
       "children": {
         "true0": [
           {
-            "command": "EVENT_ACTOR_SET_STATE",
+            "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
-              "actorId": "$self$",
-              "spriteStateId": "",
-              "loopAnim": true
+              "actorId": "0",
+              "spriteSheetId": "6885d42e-d510-4177-9f60-212fca0a8f89"
             },
-            "id": "35445e99-69b4-4e0b-af08-f754100a89ec"
+            "id": "8069ac12-2b6b-441e-9d1a-bfa29f16eee1"
           }
         ],
-        "true1": [],
-        "true2": [],
-        "true3": [],
-        "true4": [],
+        "true1": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "40c8ad35-d8ac-4867-a6b9-b7ee899975f7"
+            },
+            "id": "31d82cae-bdfe-49c4-b238-a221532aa1c5"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "4525a473-da80-4d89-a808-e90d43e49eee"
+            },
+            "id": "a44fcec0-a698-4fe2-a936-e17a20d8f739"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "16ac245b-3854-45cf-b32a-109c52043b84"
+            },
+            "id": "edfe2226-bc15-497d-b5f0-79794293d73e"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "1e6f9b4d-7169-45ae-9ef1-2e4b35704f7a"
+            },
+            "id": "0208ebd8-ac85-4b24-a68f-0889d9aa2a31"
+          }
+        ],
         "true5": [],
         "true6": [],
         "true7": [],
@@ -75,7 +115,7 @@
         "true15": [],
         "false": []
       },
-      "id": "9c6157b5-b921-494b-addb-f60b86032791"
+      "id": "dee02e5a-976f-4173-84ca-1d5222d7b74c"
     }
   ]
 }

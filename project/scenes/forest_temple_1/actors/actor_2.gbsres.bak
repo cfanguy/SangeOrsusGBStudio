@@ -7,7 +7,7 @@
   "spriteSheetId": "237687fa-3a94-4f7b-a4bf-c3e74f881c05",
   "prefabId": "",
   "direction": "down",
-  "moveSpeed": 0.5,
+  "moveSpeed": 0.25,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
@@ -20,7 +20,8 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "31d98262-1cfe-4864-afcb-7f61f5e79e37",
-        "__comment": false
+        "__comment": false,
+        "$actor[1]$": "eb74ab41-bbad-4b3a-bbb9-9bd4f5619a9b"
       },
       "id": "ff3cac81-6892-4acb-be79-916bd0abb7bc"
     }
@@ -79,7 +80,7 @@
               },
               "$variable[V1]$": {
                 "type": "number",
-                "value": 6
+                "value": 5
               },
               "$variable[V2]$": {
                 "type": "number",
@@ -95,7 +96,15 @@
   ],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a"
+      },
+      "id": "76c688e5-27a3-40e4-ae03-e461ebda6a7d"
+    }
+  ],
   "x": 5,
   "y": 9,
   "_index": 2

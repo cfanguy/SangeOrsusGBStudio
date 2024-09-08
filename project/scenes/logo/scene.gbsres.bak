@@ -46,37 +46,6 @@
         "fadeSpeed": "2"
       },
       "id": "1bf59d19-30d2-4043-929d-01c3725619ef"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "2",
-        "value": {
-          "type": "false"
-        }
-      },
-      "id": "1ba43c3f-5f23-404a-833c-cf9aa32b33a7"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "3",
-        "value": {
-          "type": "number",
-          "value": 4
-        }
-      },
-      "id": "1e04cecb-b764-44d4-8dd3-8bd24e5f197f"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "4",
-        "value": {
-          "type": "false"
-        }
-      },
-      "id": "c6e4d6cb-da1f-4357-813c-ab4f6e6a3668"
     }
   ],
   "playerHit1Script": [],
