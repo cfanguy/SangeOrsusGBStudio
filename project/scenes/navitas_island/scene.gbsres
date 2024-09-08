@@ -25,27 +25,15 @@
   "autoFadeSpeed": 1,
   "script": [
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_SET_VALUE",
       "args": {
-        "condition": {
-          "type": "variable",
-          "value": "2"
-        },
-        "__collapseElse": true
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 4
+        }
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_SHOW",
-            "args": {
-              "actorId": "b11f1646-eb08-4eec-9775-d56d07a162b4"
-            },
-            "id": "1ccf02bc-c3d5-4e8c-b03d-84a83b3703fc"
-          }
-        ],
-        "false": []
-      },
-      "id": "14e28a44-822d-4daa-83e2-df4a89626d89"
+      "id": "883ae0af-2751-4d18-9b5a-ee6d6aa19c0f"
     }
   ],
   "playerHit1Script": [],

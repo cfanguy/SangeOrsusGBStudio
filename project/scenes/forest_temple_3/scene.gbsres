@@ -38,6 +38,14 @@
         ]
       },
       "id": "9b86d478-56e8-44a3-8739-e648ad52c864"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "111511ba-4a91-4b9c-97b9-3be92ca2992c",
+        "$actor[0]$": "2581145b-48b0-46f4-acc1-4c592984db1e"
+      },
+      "id": "ea326e30-ee26-4ee3-b70b-36a12e1f96ed"
     }
   ],
   "playerHit1Script": [],

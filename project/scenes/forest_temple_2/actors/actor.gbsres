@@ -7,12 +7,12 @@
   "spriteSheetId": "09cf1dbb-d3cc-458d-8347-d35e8512a6e0",
   "prefabId": "",
   "direction": "right",
-  "moveSpeed": 1,
+  "moveSpeed": 0.5,
   "animSpeed": 7,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "1",
+  "collisionGroup": "3",
   "prefabScriptOverrides": {},
   "_index": 0,
   "symbol": "actor_33",
@@ -22,7 +22,8 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "31d98262-1cfe-4864-afcb-7f61f5e79e37"
+        "customEventId": "31d98262-1cfe-4864-afcb-7f61f5e79e37",
+        "$actor[1]$": "ebad8f1c-4394-4b79-b902-05781e7e3988"
       },
       "id": "12a56de9-c733-4f86-ad79-2613902297ea"
     }
@@ -46,7 +47,7 @@
         "operator": "<=",
         "distance": {
           "type": "number",
-          "value": 8
+          "value": 5
         },
         "otherActorId": "$self$",
         "__collapseElse": false
@@ -65,28 +66,40 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "d894d68d-4e47-420d-b6db-20c75905a84b",
-              "$variable[V1]$": {
-                "type": "variable",
-                "value": "L1"
-              },
-              "$variable[V0]$": {
-                "type": "variable",
-                "value": "L0"
-              }
+              "customEventId": "d894d68d-4e47-420d-b6db-20c75905a84b"
             },
-            "id": "f7381639-b72f-4ee3-935c-e644b2bb3d14"
+            "id": "bc88840c-0894-4f06-8825-dc4f76557e6b"
           }
         ],
         "false": [
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 0.5,
+              "time": 1,
               "frames": 10,
-              "units": "frames"
+              "units": "time",
+              "__collapse": false
             },
             "id": "78aa9207-af3a-4d7a-aa17-b02d768620f3"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "e9047a64-df33-4234-a755-bbd15453fba1",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "T0"
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 5
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 5
+              }
+            },
+            "id": "8912fc46-6e4f-4754-87e6-897c7d9e0047"
           }
         ]
       },

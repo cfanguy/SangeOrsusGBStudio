@@ -18,8 +18,8 @@
     },
     {
       "id": "3",
-      "name": "ForestEnemies",
-      "symbol": "var_forestenemies"
+      "name": "Player Health",
+      "symbol": "var_player_health"
     },
     {
       "id": "844635bc-2ad5-46c9-982d-7754e15f6d84__L1",
@@ -110,6 +110,31 @@
       "id": "9f0dac65-dcd3-44df-b97a-545818787b47__L1",
       "name": "Local 1",
       "symbol": "var_local_17"
+    },
+    {
+      "id": "bb0c8be5-227c-4aee-97e1-92afb777b52c__L1",
+      "name": "Local 1",
+      "symbol": "var_local_18"
+    },
+    {
+      "id": "2270ba4d-607b-4018-b6d8-ebb542e13482__L1",
+      "name": "Local 1",
+      "symbol": "var_local_19"
+    },
+    {
+      "id": "c9e59288-61e2-4a54-b847-11caf06fdf7e__L1",
+      "name": "Local 1",
+      "symbol": "var_local_20"
+    },
+    {
+      "id": "ba294502-a571-43e2-9275-6ae44f25d00d__L1",
+      "name": "Local 1",
+      "symbol": "var_local_21"
+    },
+    {
+      "id": "4",
+      "name": "Player Is Hit",
+      "symbol": "var_player_is_hit"
     }
   ]
 }

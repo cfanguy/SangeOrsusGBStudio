@@ -1,0 +1,102 @@
+{
+  "_resourceType": "actor",
+  "id": "cf67ca1e-f9b7-4ae5-8948-de4f07d2168b",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "237687fa-3a94-4f7b-a4bf-c3e74f881c05",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 0.5,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "3",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_31",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "31d98262-1cfe-4864-afcb-7f61f5e79e37",
+        "__comment": false
+      },
+      "id": "9fe70caa-42ce-4849-b4d7-5e9e353b8323"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operator": "<=",
+        "distance": {
+          "type": "number",
+          "value": 5
+        },
+        "otherActorId": "$self$",
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "player",
+              "vectorX": "0",
+              "vectorY": "1"
+            },
+            "id": "9cfa7b25-89c6-45e4-a01e-a3fb8987551e"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d894d68d-4e47-420d-b6db-20c75905a84b"
+            },
+            "id": "ad060d24-be21-43a1-a466-7538e5f2a9a8"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.3,
+              "frames": 10,
+              "units": "time",
+              "__collapse": false
+            },
+            "id": "ce7d1e23-fac1-484a-b283-cac3e128baea"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "e9047a64-df33-4234-a755-bbd15453fba1",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "T0"
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 14
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "64f5f4f3-1d79-472c-a3ff-18a01fcdfe67"
+          }
+        ]
+      },
+      "id": "400f355b-f2da-409d-855f-3459f43a8df8"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 14,
+  "y": 4,
+  "_index": 1
+}

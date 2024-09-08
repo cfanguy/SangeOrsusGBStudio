@@ -36,26 +36,16 @@
         "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
         "x": {
           "type": "number",
-          "value": 39
+          "value": 45
         },
         "y": {
           "type": "number",
-          "value": 45
+          "value": 21
         },
         "direction": "",
         "fadeSpeed": "2"
       },
       "id": "1bf59d19-30d2-4043-929d-01c3725619ef"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "2",
-        "value": {
-          "type": "false"
-        }
-      },
-      "id": "1ba43c3f-5f23-404a-833c-cf9aa32b33a7"
     }
   ],
   "playerHit1Script": [],
