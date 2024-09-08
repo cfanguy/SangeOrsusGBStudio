@@ -1,0 +1,19 @@
+{
+  "_resourceType": "script",
+  "id": "0f65ccd9-61f4-4595-b6d0-94bb148490e5",
+  "name": "Open HUD",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_0",
+  "script": [
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_OVERLAY_SHOW 0, 17, .UI_COLOR_WHITE, 0",
+        "references": []
+      },
+      "id": "fe27f021-62bb-440b-8de2-0a8458c14499"
+    }
+  ]
+}

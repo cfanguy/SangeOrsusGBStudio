@@ -1,0 +1,24 @@
+{
+  "_resourceType": "script",
+  "id": "aa54001d-2fdf-432a-89e8-4afc8cb4cf1e",
+  "name": "Update HUD",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_LOAD_TEXT 1\n.dw VAR_PLAYER_HEALTH\n.asciz \"\\003\\002\\001Health: %d\"\nVM_DISPLAY_TEXT",
+        "references": [
+          {
+            "type": "variable",
+            "id": "3"
+          }
+        ]
+      },
+      "id": "d9b9715c-e87e-4b5c-8348-c6b370c7300f"
+    }
+  ]
+}

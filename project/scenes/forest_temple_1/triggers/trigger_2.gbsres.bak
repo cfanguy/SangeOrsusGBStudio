@@ -20,7 +20,7 @@
         },
         "y": {
           "type": "number",
-          "value": 8
+          "value": 9
         },
         "direction": "left",
         "fadeSpeed": "2"

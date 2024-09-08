@@ -46,6 +46,20 @@
               "actorId": "818dfcec-3d42-4c96-9ad5-1b76e9231cd9"
             },
             "id": "b415c62e-0247-423d-b70d-9085ca1d299b"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "fcd22a8e-6970-44af-8ce4-61b2a6fa4b10"
+            },
+            "id": "89e1e6d3-0ded-4e75-8abd-cfbc574addf9"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "fcd22a8e-6970-44af-8ce4-61b2a6fa4b10"
+            },
+            "id": "0cfa26e2-f841-43bb-ac6e-9036e645cfc4"
           }
         ],
         "false": [

@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "3b80c23f-ec65-43fa-9159-c73ff7d9d9fb",
+  "id": "06feaa37-5e03-4305-acdb-855aee673dbc",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,15 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_28",
+  "symbol": "actor_26",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Great Work!\nWe have put out",
-          "the fires here,\nbut need more time",
-          "to fix the town.\nLeave this to us."
+          "Remember your\ntraining when",
+          "you fight the\nmonsters!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -41,7 +40,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "90d99855-2b64-4431-b64d-3f29a8dd3e16"
+      "id": "34997845-52e9-4985-b221-f09b3852a0f5"
     }
   ],
   "startScript": [],
@@ -51,5 +50,5 @@
   "hit3Script": [],
   "x": 21,
   "y": 5,
-  "_index": 1
+  "_index": 5
 }

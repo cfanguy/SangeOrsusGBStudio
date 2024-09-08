@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "2d2a091d-dc9c-4028-9421-a7afb3d72a69",
-  "name": "",
+  "id": "9efb2b11-31f6-4a9b-9c46-844e3933685d",
+  "name": "Block Forest 2",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "3eb6f931-4bd4-49c2-917d-5ee19fcee816",
+  "spriteSheetId": "120c35af-000c-461c-b638-cb0ee7038c63",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,14 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_36",
+  "symbol": "actor_12",
   "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 18,
-  "y": 9,
-  "_index": 3
+  "x": 46,
+  "y": 18,
+  "_index": 1
 }

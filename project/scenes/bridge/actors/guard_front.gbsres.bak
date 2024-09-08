@@ -1,15 +1,15 @@
 {
   "_resourceType": "actor",
-  "id": "7d7d15a2-7565-4538-a4bc-55f948595fd6",
+  "id": "a4d83b92-90d9-490f-8ea1-1a65dd31dc3f",
   "_index": 0,
-  "symbol": "actor_16",
+  "symbol": "actor_14",
   "prefabId": "",
-  "name": "",
-  "x": 29,
-  "y": 6,
+  "name": "Guard Front",
+  "x": 9,
+  "y": 11,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "180a019b-c49e-42dc-a974-b8628119d04c",
+  "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622",
   "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -23,12 +23,12 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Thank You! The\nbridge past the",
-          "forest is now\nopen!"
+          "None may pass\nwhile monsters",
+          "are in the forest!"
         ],
         "avatarId": ""
       },
-      "id": "a9a0c7c3-b3f6-429b-bdfc-215f99e15396"
+      "id": "5f5d908c-01e0-45ed-8bad-216c4115127b"
     }
   ],
   "startScript": [],

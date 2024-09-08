@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f63c134c-0427-41bb-a00e-39b94229175b",
+  "name": "guild_fixed",
+  "symbol": "bg_guild_fixed",
+  "width": 45,
+  "height": 18,
+  "imageWidth": 360,
+  "imageHeight": 144,
+  "filename": "guild_fixed.png",
+  "tileColors": ""
+}

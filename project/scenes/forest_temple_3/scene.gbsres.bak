@@ -7,7 +7,7 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "type": "ADVENTURE",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "0f7e+008+0fc+008+0f6+0028+0f6+008+0fc+008+0f7e+",
@@ -40,12 +40,29 @@
       "id": "9b86d478-56e8-44a3-8739-e648ad52c864"
     },
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "command": "EVENT_GROUP",
       "args": {
-        "customEventId": "111511ba-4a91-4b9c-97b9-3be92ca2992c",
-        "$actor[0]$": "2581145b-48b0-46f4-acc1-4c592984db1e"
+        "__label": "HUD"
       },
-      "id": "ea326e30-ee26-4ee3-b70b-36a12e1f96ed"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0f65ccd9-61f4-4595-b6d0-94bb148490e5"
+            },
+            "id": "376111ec-9d9c-4876-ae05-7a04994679cf"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "aa54001d-2fdf-432a-89e8-4afc8cb4cf1e"
+            },
+            "id": "6fe544dd-1b22-4f12-8de6-1062967798f6"
+          }
+        ]
+      },
+      "id": "0cf4fdbb-e9ed-4eda-9314-6a96dce946c3"
     }
   ],
   "playerHit1Script": [],

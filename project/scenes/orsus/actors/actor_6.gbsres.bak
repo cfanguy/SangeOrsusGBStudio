@@ -1,34 +1,33 @@
 {
   "_resourceType": "actor",
-  "id": "7d7d15a2-7565-4538-a4bc-55f948595fd6",
-  "_index": 0,
-  "symbol": "actor_16",
+  "id": "a1e26904-ba56-4246-900b-aaa4a255d4d7",
+  "_index": 5,
+  "symbol": "actor_23",
   "prefabId": "",
   "name": "",
-  "x": 29,
-  "y": 6,
+  "x": 22,
+  "y": 29,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "180a019b-c49e-42dc-a974-b8628119d04c",
+  "spriteSheetId": "86488306-d714-47b7-8fee-79c9040a67a0",
   "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "prefabScriptOverrides": {},
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Thank You! The\nbridge past the",
-          "forest is now\nopen!"
+          "Town of Orsus"
         ],
         "avatarId": ""
       },
-      "id": "a9a0c7c3-b3f6-429b-bdfc-215f99e15396"
+      "id": "e7a5e423-0f56-4e9e-8def-b5af32057e5e"
     }
   ],
   "startScript": [],

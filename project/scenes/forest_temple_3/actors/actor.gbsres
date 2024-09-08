@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "d3e1ccf5-1346-4c15-b256-dec4f4cd98a8",
+  "id": "4831cb7a-1936-4f9e-a41f-300a467d6507",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "3eb6f931-4bd4-49c2-917d-5ee19fcee816",
+  "spriteSheetId": "34f43e2d-3016-4e4e-8b0e-013630ca72d7",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -12,16 +12,75 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "prefabScriptOverrides": {},
-  "symbol": "actor_39",
-  "script": [],
+  "symbol": "actor_41",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "3a8302ff-3215-412f-8a8c-0bea9c478aee"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Healed to Full\nHealth!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6de1a304-83e7-4093-bbbd-dd3c23bea84b"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "e89a4983-dc00-4311-b96f-b9750f60701d"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "be2b446c-87ae-451f-81ce-a2abbd725086"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "111511ba-4a91-4b9c-97b9-3be92ca2992c",
+        "$actor[0]$": "2581145b-48b0-46f4-acc1-4c592984db1e"
+      },
+      "id": "c17deb30-96d8-488d-8fbf-84e37e4fe2e2"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 18,
-  "y": 9,
-  "_index": 1
+  "x": 9,
+  "y": 7,
+  "_index": 0
 }

@@ -12,7 +12,7 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "prefabScriptOverrides": {},
   "symbol": "actor_41",
   "script": [
@@ -59,6 +59,20 @@
         "$actor[0]$": "2581145b-48b0-46f4-acc1-4c592984db1e"
       },
       "id": "c17deb30-96d8-488d-8fbf-84e37e4fe2e2"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "e89a4983-dc00-4311-b96f-b9750f60701d"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "be2b446c-87ae-451f-81ce-a2abbd725086"
     }
   ],
   "startScript": [],
@@ -68,5 +82,5 @@
   "hit3Script": [],
   "x": 9,
   "y": 7,
-  "_index": 2
+  "_index": 0
 }
