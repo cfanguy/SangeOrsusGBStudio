@@ -1,146 +1,27 @@
 {
   "_resourceType": "actor",
-  "id": "1f6d28a5-f6fd-421a-b528-b9da78c1b3d1",
+  "id": "33a203e7-4a1d-4650-a790-6474ec0a6ae1",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "7a75a880-80de-4272-b013-16bca3f09a0e",
+  "spriteSheetId": "3eb6f931-4bd4-49c2-917d-5ee19fcee816",
   "prefabId": "",
-  "direction": "right",
+  "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 7,
+  "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "3",
+  "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "_index": 1,
-  "symbol": "actor_38",
-  "x": 3,
-  "y": 8,
-  "script": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "31d98262-1cfe-4864-afcb-7f61f5e79e37",
-        "$actor[1]$": "80f11022-f196-4a41-8114-309e5a8b3bcf"
-      },
-      "id": "2c935987-dea5-413b-bbfb-689e6d200df7"
-    }
-  ],
+  "symbol": "actor_40",
+  "script": [],
   "startScript": [],
-  "updateScript": [
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": 0.5,
-        "frames": 6,
-        "units": "frames",
-        "__collapse": false
-      },
-      "id": "b8db8f44-83d7-4369-836a-38ea9a70fff8"
-    },
-    {
-      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
-      "args": {
-        "actorId": "player",
-        "operator": "<=",
-        "distance": {
-          "type": "number",
-          "value": 10
-        },
-        "otherActorId": "$self$",
-        "__collapseElse": false,
-        "__collapse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_GET_POSITION",
-            "args": {
-              "actorId": "player",
-              "vectorX": "0",
-              "vectorY": "1"
-            },
-            "id": "ff63c9c3-4d00-490c-9539-f4870dda9d08"
-          },
-          {
-            "command": "EVENT_WAIT",
-            "args": {
-              "time": 0.5,
-              "frames": 15,
-              "units": "frames"
-            },
-            "id": "b6a920de-7d56-486a-9c95-14c3d6703ce5"
-          },
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "d894d68d-4e47-420d-b6db-20c75905a84b",
-              "$variable[V1]$": {
-                "type": "variable",
-                "value": "1"
-              },
-              "$variable[V0]$": {
-                "type": "variable",
-                "value": "0"
-              }
-            },
-            "id": "32c98b60-b919-4fe0-aaab-4b4e4ca3c869"
-          },
-          {
-            "command": "EVENT_WAIT",
-            "args": {
-              "time": 0.5,
-              "frames": 15,
-              "units": "frames"
-            },
-            "id": "88a375f9-7009-4ace-828a-3183ba16a77f"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_WAIT",
-            "args": {
-              "time": 1,
-              "frames": 30
-            },
-            "id": "4dffd103-98b0-4a7f-bf1d-224ff9de2c32"
-          },
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "e9047a64-df33-4234-a755-bbd15453fba1",
-              "$variable[V0]$": {
-                "type": "variable",
-                "value": "T0"
-              },
-              "$variable[V1]$": {
-                "type": "number",
-                "value": 3
-              },
-              "$variable[V2]$": {
-                "type": "number",
-                "value": 8
-              }
-            },
-            "id": "7e7c2776-ed34-44dd-a02c-3c4e9c6675ed"
-          }
-        ]
-      },
-      "id": "5b5f104f-a820-4a1d-bd83-258634f34deb"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a",
-        "$actor[0]$": "$self$"
-      },
-      "id": "1d009938-6552-40f1-bc1c-a881a94128fa"
-    }
-  ]
+  "hit3Script": [],
+  "x": 18,
+  "y": 9,
+  "_index": 2
 }
