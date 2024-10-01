@@ -22,6 +22,16 @@
       "symbol": "var_player_health"
     },
     {
+      "id": "4",
+      "name": "Player Is Hit",
+      "symbol": "var_player_is_hit"
+    },
+    {
+      "id": "5",
+      "name": "Boss HP",
+      "symbol": "var_boss_hp"
+    },
+    {
       "id": "844635bc-2ad5-46c9-982d-7754e15f6d84__L1",
       "name": "Local 1",
       "symbol": "var_local_1"
@@ -132,11 +142,6 @@
       "symbol": "var_local_21"
     },
     {
-      "id": "4",
-      "name": "Player Is Hit",
-      "symbol": "var_player_is_hit"
-    },
-    {
       "id": "1f6d28a5-f6fd-421a-b528-b9da78c1b3d1__L1",
       "name": "Local 1",
       "symbol": "var_local_22"
@@ -155,11 +160,6 @@
       "id": "99003ca0-7c7d-4d53-8c2c-9168ce883f5f__L1",
       "name": "Local 1",
       "symbol": "var_local_25"
-    },
-    {
-      "id": "5",
-      "name": "Boss HP",
-      "symbol": "var_boss_hp"
     }
   ]
 }

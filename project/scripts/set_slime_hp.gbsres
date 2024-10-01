@@ -1,0 +1,28 @@
+{
+  "_resourceType": "script",
+  "id": "2f831d6d-b090-4b0b-8cc7-2c2c2efc04d9",
+  "name": "Set Slime HP",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "HP",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V0",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "d56357b3-e5e1-4314-b858-ec5ca754b7db"
+    }
+  ]
+}

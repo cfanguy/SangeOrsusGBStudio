@@ -27,6 +27,13 @@
       "id": "4f2fda39-1f0e-4291-b7b8-698c0114624f"
     },
     {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "c410f478-c4fa-4a91-9e28-037b768b5f5c"
+    },
+    {
       "command": "EVENT_WAIT",
       "args": {
         "time": 0.1,
@@ -67,15 +74,14 @@
               "speed": 0,
               "animSpeed": 255,
               "lifeTime": 0.2,
-              "loopAnim": true,
+              "loopAnim": false,
               "destroyOnHit": false,
-              "collisionGroup": "3",
+              "collisionGroup": "2",
               "collisionMask": [
-                "1",
-                "2",
                 "3"
               ],
-              "__collapse": false
+              "__collapse": false,
+              "__section": "projectile"
             },
             "id": "43c652ba-f5c9-4af7-b444-08d99ab55bfc"
           }
@@ -112,15 +118,14 @@
                     "speed": 0,
                     "animSpeed": 255,
                     "lifeTime": 0.2,
-                    "loopAnim": true,
+                    "loopAnim": false,
                     "destroyOnHit": false,
-                    "collisionGroup": "3",
+                    "collisionGroup": "2",
                     "collisionMask": [
-                      "1",
-                      "2",
                       "3"
                     ],
-                    "__collapse": false
+                    "__collapse": false,
+                    "__section": "projectile"
                   },
                   "id": "4440bc71-fa3d-4549-8bb6-e66a57653042"
                 }
@@ -160,12 +165,10 @@
                     "speed": 0,
                     "animSpeed": 255,
                     "lifeTime": 0.2,
-                    "loopAnim": true,
+                    "loopAnim": false,
                     "destroyOnHit": false,
-                    "collisionGroup": "3",
+                    "collisionGroup": "2",
                     "collisionMask": [
-                      "1",
-                      "2",
                       "3"
                     ],
                     "__collapse": false
@@ -208,12 +211,10 @@
                     "speed": 0,
                     "animSpeed": 255,
                     "lifeTime": 0.2,
-                    "loopAnim": true,
+                    "loopAnim": false,
                     "destroyOnHit": false,
-                    "collisionGroup": "3",
+                    "collisionGroup": "2",
                     "collisionMask": [
-                      "1",
-                      "2",
                       "3"
                     ],
                     "__collapse": false
@@ -237,6 +238,14 @@
         "__collapse": true
       },
       "id": "d9acf1ab-6bf7-44a8-a8ff-bab409569ef1"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "4a49fbc3-d97d-4b7f-b8f5-2d8273c74b68"
     },
     {
       "command": "EVENT_REMOVE_INPUT_SCRIPT",

@@ -26,7 +26,19 @@
       "id": "9fe70caa-42ce-4849-b4d7-5e9e353b8323"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "2f831d6d-b090-4b0b-8cc7-2c2c2efc04d9",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      },
+      "id": "9d87b665-0b2a-4d34-9c6e-9ffbdaf9e998"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
@@ -90,7 +102,11 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a"
+        "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
       },
       "id": "d241b63a-a210-4bae-b777-67c956be825a"
     }
