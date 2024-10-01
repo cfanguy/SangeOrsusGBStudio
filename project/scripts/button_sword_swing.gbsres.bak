@@ -75,7 +75,7 @@
               "animSpeed": 255,
               "lifeTime": 0.2,
               "loopAnim": false,
-              "destroyOnHit": false,
+              "destroyOnHit": true,
               "collisionGroup": "2",
               "collisionMask": [
                 "3"
@@ -84,6 +84,13 @@
               "__section": "projectile"
             },
             "id": "43c652ba-f5c9-4af7-b444-08d99ab55bfc"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622"
+            },
+            "id": "4c63e41d-137c-4007-a788-7eeb8ff8361a"
           }
         ],
         "false": [
@@ -119,7 +126,7 @@
                     "animSpeed": 255,
                     "lifeTime": 0.2,
                     "loopAnim": false,
-                    "destroyOnHit": false,
+                    "destroyOnHit": true,
                     "collisionGroup": "2",
                     "collisionMask": [
                       "3"
@@ -128,6 +135,13 @@
                     "__section": "projectile"
                   },
                   "id": "4440bc71-fa3d-4549-8bb6-e66a57653042"
+                },
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622"
+                  },
+                  "id": "ff33ac67-535d-4700-8bac-00190ef23122"
                 }
               ],
               "false": []
@@ -166,7 +180,7 @@
                     "animSpeed": 255,
                     "lifeTime": 0.2,
                     "loopAnim": false,
-                    "destroyOnHit": false,
+                    "destroyOnHit": true,
                     "collisionGroup": "2",
                     "collisionMask": [
                       "3"
@@ -174,6 +188,13 @@
                     "__collapse": false
                   },
                   "id": "a8d0a528-5f89-4313-a9e2-c4f8a930157f"
+                },
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622"
+                  },
+                  "id": "f65c64e7-da9a-46f8-9e9f-5c31849b549b"
                 }
               ],
               "false": []
@@ -212,7 +233,7 @@
                     "animSpeed": 255,
                     "lifeTime": 0.2,
                     "loopAnim": false,
-                    "destroyOnHit": false,
+                    "destroyOnHit": true,
                     "collisionGroup": "2",
                     "collisionMask": [
                       "3"
@@ -220,6 +241,13 @@
                     "__collapse": false
                   },
                   "id": "51c2eca8-d7e0-4683-8dfd-032158322046"
+                },
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622"
+                  },
+                  "id": "cf0cdefb-071f-4147-9180-856da558a54a"
                 }
               ],
               "false": []
@@ -246,6 +274,13 @@
         "__collapse": true
       },
       "id": "4a49fbc3-d97d-4b7f-b8f5-2d8273c74b68"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "823a49b8-100c-4330-9deb-da26dafd81b6"
+      },
+      "id": "952490b7-6711-4156-b752-23a9793f22e6"
     },
     {
       "command": "EVENT_REMOVE_INPUT_SCRIPT",

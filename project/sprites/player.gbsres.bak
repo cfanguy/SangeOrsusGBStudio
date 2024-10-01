@@ -5,7 +5,7 @@
   "symbol": "sprite_player",
   "numFrames": 6,
   "filename": "player.png",
-  "checksum": "e487a1c7bf65dc3ae1484981e49867b37342e1ef",
+  "checksum": "14d2fa24137a3d8d043d5b91d9999df7946955f1",
   "width": 96,
   "height": 16,
   "states": [

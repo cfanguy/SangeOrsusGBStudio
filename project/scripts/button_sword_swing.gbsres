@@ -88,7 +88,7 @@
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
-              "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622"
+              "spriteSheetId": "0b133f0f-816f-4e2f-9390-59dc0c074ed6"
             },
             "id": "4c63e41d-137c-4007-a788-7eeb8ff8361a"
           }
@@ -139,7 +139,7 @@
                 {
                   "command": "EVENT_PLAYER_SET_SPRITE",
                   "args": {
-                    "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622"
+                    "spriteSheetId": "0b133f0f-816f-4e2f-9390-59dc0c074ed6"
                   },
                   "id": "ff33ac67-535d-4700-8bac-00190ef23122"
                 }
@@ -192,7 +192,7 @@
                 {
                   "command": "EVENT_PLAYER_SET_SPRITE",
                   "args": {
-                    "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622"
+                    "spriteSheetId": "0b133f0f-816f-4e2f-9390-59dc0c074ed6"
                   },
                   "id": "f65c64e7-da9a-46f8-9e9f-5c31849b549b"
                 }
@@ -245,7 +245,7 @@
                 {
                   "command": "EVENT_PLAYER_SET_SPRITE",
                   "args": {
-                    "spriteSheetId": "cd735eb7-0a80-43c7-b8eb-ca349edc1622"
+                    "spriteSheetId": "0b133f0f-816f-4e2f-9390-59dc0c074ed6"
                   },
                   "id": "cf0cdefb-071f-4147-9180-856da558a54a"
                 }
