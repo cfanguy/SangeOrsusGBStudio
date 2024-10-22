@@ -10,7 +10,7 @@
     {
       "command": "EVENT_GBVM_SCRIPT",
       "args": {
-        "script": "VM_LOAD_TEXT 1\n.dw VAR_PLAYER_HEALTH\n.asciz \"\\003\\002\\001Health: %d\"\nVM_DISPLAY_TEXT",
+        "script": "VM_LOAD_TEXT 1\n.dw VAR_PLAYER_HEALTH\n.asciz \"\\003\\002\\001HP: %d\"\nVM_DISPLAY_TEXT",
         "references": [
           {
             "type": "variable",
@@ -18,7 +18,7 @@
           }
         ]
       },
-      "id": "dc300c1f-7949-4659-9bee-00d5f582840d"
+      "id": "d9b9715c-e87e-4b5c-8348-c6b370c7300f"
     }
   ]
 }

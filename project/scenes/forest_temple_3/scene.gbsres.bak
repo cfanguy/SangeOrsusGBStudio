@@ -10,7 +10,7 @@
   "type": "ADVENTURE",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f7e+008+0fc+008+0f6+0028+0f6+008+0fc+008+0f7e+",
+  "collisions": "0f6a+008+0fc+008+0f6+0013+0f!0013+0f!0013+0f!0013+0f7+008+0fc+008+0f6a+",
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
   "x": 680,

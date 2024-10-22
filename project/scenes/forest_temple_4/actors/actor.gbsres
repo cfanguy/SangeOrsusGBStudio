@@ -28,7 +28,19 @@
       "id": "2c935987-dea5-413b-bbfb-689e6d200df7"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "2f831d6d-b090-4b0b-8cc7-2c2c2efc04d9",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      },
+      "id": "9eb1f10c-b246-4c58-9343-e0bc8498e203"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_WAIT",
@@ -133,61 +145,96 @@
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a",
-              "$actor[0]$": "$self$"
+              "$actor[0]$": "$self$",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L0"
+              }
             },
             "id": "fc0a6906-f9f0-46c5-9ac3-2b3b10b385bf"
           },
           {
-            "command": "EVENT_SET_VALUE",
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
             "args": {
-              "variable": "2",
-              "value": {
-                "type": "true"
-              }
+              "actorId": "$self$",
+              "speed": 0.75
             },
-            "id": "2b23e92b-7f63-4c65-9c88-50f62a318cd2"
+            "id": "0f09acc9-ade5-4e0b-abfd-5545263726cc"
           },
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_IF",
             "args": {
-              "text": [
-                "Boss of the \nForest Cleared!"
+              "condition": {
+                "type": "lt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Boss of the \nForest Cleared!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "bd3a603f-c75a-418d-b756-f552653b0aa9"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "2",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "2b23e92b-7f63-4c65-9c88-50f62a318cd2"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
+                    "x": {
+                      "type": "number",
+                      "value": 43
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 22
+                    },
+                    "direction": "down",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "44dceed1-89df-4fd9-ace1-f6d3831eb474"
+                }
               ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "false": []
             },
-            "id": "bd3a603f-c75a-418d-b756-f552653b0aa9"
-          },
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
-              "x": {
-                "type": "number",
-                "value": 43
-              },
-              "y": {
-                "type": "number",
-                "value": 22
-              },
-              "direction": "down",
-              "fadeSpeed": "2"
-            },
-            "id": "44dceed1-89df-4fd9-ace1-f6d3831eb474"
+            "id": "cd30ec59-ee0b-49ba-9faf-83323c7871d3"
           }
         ]
       },

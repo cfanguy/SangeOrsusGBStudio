@@ -160,6 +160,16 @@
       "id": "99003ca0-7c7d-4d53-8c2c-9168ce883f5f__L1",
       "name": "Local 1",
       "symbol": "var_local_25"
+    },
+    {
+      "id": "3169368d-e185-4f2e-b70d-3a58f06b562d__L0",
+      "name": "HPSLime2",
+      "symbol": "var_hpslime2"
+    },
+    {
+      "id": "cf67ca1e-f9b7-4ae5-8948-de4f07d2168b__L0",
+      "name": "HPSlime1",
+      "symbol": "var_hpslime1"
     }
   ]
 }

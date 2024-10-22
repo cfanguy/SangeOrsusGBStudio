@@ -170,6 +170,16 @@
       "id": "cf67ca1e-f9b7-4ae5-8948-de4f07d2168b__L0",
       "name": "HPSlime1",
       "symbol": "var_hpslime1"
+    },
+    {
+      "id": "6",
+      "name": "Player Direction",
+      "symbol": "var_player_direction"
+    },
+    {
+      "id": "1f6d28a5-f6fd-421a-b528-b9da78c1b3d1__L0",
+      "name": "BossHP",
+      "symbol": "var_bosshp"
     }
   ]
 }

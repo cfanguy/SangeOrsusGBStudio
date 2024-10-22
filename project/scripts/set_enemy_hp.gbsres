@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
   "id": "2f831d6d-b090-4b0b-8cc7-2c2c2efc04d9",
-  "name": "Set Slime HP",
+  "name": "Set Enemy HP",
   "description": "",
   "variables": {
     "V0": {

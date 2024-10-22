@@ -56,15 +56,6 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_GET_POSITION",
-            "args": {
-              "actorId": "player",
-              "vectorX": "0",
-              "vectorY": "1"
-            },
-            "id": "ff63c9c3-4d00-490c-9539-f4870dda9d08"
-          },
-          {
             "command": "EVENT_WAIT",
             "args": {
               "time": 0.5,
