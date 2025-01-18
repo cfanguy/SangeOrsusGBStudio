@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "forest_temple1.png",
-  "tileColors": "01168+"
+  "tileColors": "01168+",
+  "autoColor": false
 }

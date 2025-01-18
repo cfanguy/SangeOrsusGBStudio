@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "72e71806-04f7-41ae-a09e-689b738e422a",
+  "_index": 11,
+  "name": "Bridge Open",
+  "backgroundId": "139b77b8-4a13-4457-a544-81f1173e907c",
+  "tilesetId": "",
+  "width": 20,
+  "height": 20,
+  "type": "ADVENTURE",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f7+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0f7+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 1008,
+  "y": 288,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

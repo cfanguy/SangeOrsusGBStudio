@@ -35,9 +35,9 @@
   "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
   "defaultCharacterEncoding": "",
   "defaultPlayerSprites": {
-    "TOPDOWN": "823a49b8-100c-4330-9deb-da26dafd81b6",
+    "TOPDOWN": "",
     "PLATFORM": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "ADVENTURE": "823a49b8-100c-4330-9deb-da26dafd81b6",
     "SHMUP": "823a49b8-100c-4330-9deb-da26dafd81b6",
     "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"

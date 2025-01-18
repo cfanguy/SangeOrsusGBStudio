@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6ed9eea2-d33a-48b4-bc3d-c9c32cccec87",
+  "name": "bridge",
+  "symbol": "bg_bridge",
+  "width": 20,
+  "height": 20,
+  "imageWidth": 160,
+  "imageHeight": 160,
+  "filename": "bridge.png",
+  "tileColors": "077+026+07e+026+07e+026+07e+026+07e+026+07e+026+07e+026+07e+026+07e+026+07e+026+07e+026+07e+026+07e+026+07e+026+07e+026+07e+026+07e+026+07e+026+07e+026+07e+026+077+",
+  "autoColor": false
+}

@@ -8,25 +8,45 @@
   "x": 45,
   "y": 17,
   "width": 3,
-  "height": 2,
+  "height": 1,
   "prefabScriptOverrides": {},
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "56e09ddd-4b80-4ad6-9606-58b262c022ac",
-        "x": {
-          "type": "number",
-          "value": 9
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "2"
+          }
         },
-        "y": {
-          "type": "number",
-          "value": 14
-        },
-        "direction": "up",
-        "fadeSpeed": "2"
+        "__collapseElse": false,
+        "__comment": false
       },
-      "id": "4d4af77d-5782-4be2-a9bc-85422e65d492"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "56e09ddd-4b80-4ad6-9606-58b262c022ac",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "4d4af77d-5782-4be2-a9bc-85422e65d492"
+          }
+        ],
+        "false": []
+      },
+      "id": "866233a8-205d-4640-ac8d-08dbb4bc94b8"
     }
   ],
   "leaveScript": []

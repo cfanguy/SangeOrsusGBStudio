@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "188d8990-c657-47a6-9f9d-697031467608",
+  "id": "06feaa37-5e03-4305-acdb-855aee673dbc",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "b43b8610-e4d0-4809-b672-17e895207ede",
+  "spriteSheetId": "8bb24f02-fd4b-42af-bee1-b257ed595383",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,14 +14,41 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "_index": 4,
-  "symbol": "actor_25",
-  "x": 42,
-  "y": 3,
-  "script": [],
+  "symbol": "actor_26",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Remember your\ntraining when",
+          "you fight the\nmonsters!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "34997845-52e9-4985-b221-f09b3852a0f5"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": []
+  "hit3Script": [],
+  "x": 20,
+  "y": 5,
+  "_index": 5
 }

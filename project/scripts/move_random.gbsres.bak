@@ -185,7 +185,7 @@
                 "value": "V2"
               },
               "moveType": "diagonal",
-              "useCollisions": false
+              "useCollisions": true
             },
             "id": "f77885a0-591e-4874-9b9b-542e017eb99f"
           }

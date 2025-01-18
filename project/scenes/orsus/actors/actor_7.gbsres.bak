@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "09c7d245-1104-4794-824c-01ae8d8d6cb2",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "86488306-d714-47b7-8fee-79c9040a67a0",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "_index": 6,
+  "symbol": "actor_30",
+  "x": 24,
+  "y": 18,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guild Hall"
+        ],
+        "avatarId": ""
+      },
+      "id": "b5ab1ec3-bbcc-42fa-9608-e04aaecff3e1"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

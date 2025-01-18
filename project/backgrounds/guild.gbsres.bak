@@ -8,5 +8,6 @@
   "imageWidth": 360,
   "imageHeight": 144,
   "filename": "guild.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

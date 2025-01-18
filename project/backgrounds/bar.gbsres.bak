@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0d70df96-64b6-4c87-83c8-c1091091cd51",
+  "name": "bar",
+  "symbol": "bg_bar",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "bar.png",
+  "tileColors": "00168+",
+  "autoColor": false
+}

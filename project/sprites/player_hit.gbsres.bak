@@ -5,7 +5,7 @@
   "symbol": "sprite_player_hit",
   "numFrames": 6,
   "filename": "player_hit.png",
-  "checksum": "08a85b35722f4221732ab70f84c31c0b69ea2aed",
+  "checksum": "87a93ec40eebbedb8bf2f19633e82199ed647220",
   "width": 96,
   "height": 16,
   "states": [

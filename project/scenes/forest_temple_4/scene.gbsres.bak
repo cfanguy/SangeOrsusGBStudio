@@ -79,7 +79,8 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__label": "HUD"
+        "__label": "HUD",
+        "__comment": true
       },
       "children": {
         "true": [

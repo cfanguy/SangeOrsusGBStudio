@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "22147cad-a5e1-440a-a9a3-3c428b230e57",
+  "name": "orsus_logo",
+  "symbol": "bg_orsus_logo",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "orsus_logo.png",
+  "tileColors": "",
+  "autoColor": false
+}

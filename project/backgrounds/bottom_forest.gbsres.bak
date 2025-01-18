@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e44d65ca-da52-464b-9e6d-32f8ac740b23",
+  "name": "bottom_forest",
+  "symbol": "bg_bottom_forest",
+  "width": 40,
+  "height": 30,
+  "imageWidth": 320,
+  "imageHeight": 240,
+  "filename": "bottom_forest.png",
+  "tileColors": "014b0+",
+  "autoColor": false
+}

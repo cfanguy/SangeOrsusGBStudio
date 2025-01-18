@@ -1,0 +1,55 @@
+{
+  "_resourceType": "script",
+  "id": "7f6467eb-fa9e-4cca-a974-30d52cd6a9de",
+  "name": "Button Shoot Projectile",
+  "symbol": "script_2",
+  "description": "Shoot Projectile on B Button",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "spriteSheetId": "ea97ee66-6f04-4468-b460-8b9caabb55e4",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 3,
+              "y": 0,
+              "directionType": "direction",
+              "otherActorId": "$self$",
+              "direction": "right",
+              "angle": 0,
+              "angleVariable": "V0",
+              "targetActorId": "$self$",
+              "initialOffset": 0,
+              "speed": 3,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "3",
+                "1",
+                "2"
+              ]
+            },
+            "id": "84384e0c-e3c8-420f-a67b-ead555b4c0c6"
+          }
+        ]
+      },
+      "id": "3f16c719-c3f5-44a5-bf30-81c628e0264a"
+    }
+  ]
+}

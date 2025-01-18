@@ -45,7 +45,8 @@
             "value": "2"
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__comment": false
       },
       "children": {
         "true": [
@@ -64,50 +65,21 @@
             "id": "95de47cf-3f59-44ff-bd8b-6e3fbb64c561"
           },
           {
-            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "03f187a3-7fc8-40b0-bca6-cdeffbc59d42"
             },
-            "id": "93a32754-405f-4370-8e0b-078c727101d2"
+            "id": "20d6711a-487d-45a3-b1c4-33c2d77cbcf7"
           },
           {
-            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "9efb2b11-31f6-4a9b-9c46-844e3933685d"
             },
-            "id": "3ee01b4a-8cf7-405a-a057-d31f3b0c35ff"
+            "id": "88620f47-4abe-4c73-aa6f-60485cbeda7b"
           }
         ],
-        "false": [
-          {
-            "command": "EVENT_ACTOR_SHOW",
-            "args": {
-              "actorId": "03f187a3-7fc8-40b0-bca6-cdeffbc59d42"
-            },
-            "id": "f4c7dac7-e5c8-4201-b35d-68153da7623a"
-          },
-          {
-            "command": "EVENT_ACTOR_SHOW",
-            "args": {
-              "actorId": "9efb2b11-31f6-4a9b-9c46-844e3933685d"
-            },
-            "id": "025afacd-47e4-4244-89c8-172232bd6ce2"
-          },
-          {
-            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
-            "args": {
-              "actorId": "03f187a3-7fc8-40b0-bca6-cdeffbc59d42"
-            },
-            "id": "30591a4c-df78-41cb-b0aa-73b815b1b2bf"
-          },
-          {
-            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
-            "args": {
-              "actorId": "9efb2b11-31f6-4a9b-9c46-844e3933685d"
-            },
-            "id": "2811c1a5-4e59-4907-8454-0a6603ce644a"
-          }
-        ]
+        "false": []
       },
       "id": "98109fb6-1cbb-4d3b-8b97-a030a48c0195"
     },

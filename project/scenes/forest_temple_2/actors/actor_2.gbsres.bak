@@ -55,15 +55,6 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_GET_POSITION",
-            "args": {
-              "actorId": "player",
-              "vectorX": "0",
-              "vectorY": "1"
-            },
-            "id": "7bca8a6c-eb9d-44c6-94a5-8191f0d7e9d2"
-          },
-          {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "d894d68d-4e47-420d-b6db-20c75905a84b"
