@@ -208,6 +208,28 @@
             "id": "0de3894e-7373-4fbe-87a6-190be8c6ed00"
           },
           {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "0"
+            },
+            "id": "994bbad1-17ca-44b8-ac01-6ed3d28328b1"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.2,
+              "frames": 30
+            },
+            "id": "336e7bf9-dcdf-4c28-bc30-44aee94f4fe3"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+            "args": {
+              "actorId": "0"
+            },
+            "id": "7dd3a1de-1223-4623-9798-a4c50e78b44f"
+          },
+          {
             "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
             "args": {
               "actorId": "0",

@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "97ecd9cb-51bb-4fa5-b49f-70eb41407ffb",
+  "name": "playerHitLoud.wav",
+  "symbol": "sound_playerhitloud_wav",
+  "filename": "playerHitLoud.wav",
+  "type": "wav"
+}

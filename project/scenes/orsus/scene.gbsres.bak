@@ -46,6 +46,53 @@
         ]
       },
       "id": "92d3bc1f-5682-4b3d-bb30-c2fe20660582"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "2"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30
+            },
+            "id": "5de530d9-777d-4218-b4df-1d33eda83767"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "eba93a37-d8fd-4a27-8b46-f97778751de4"
+            },
+            "id": "3b610b18-a0b0-447b-82f3-41b8ddfcfa6a"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30
+            },
+            "id": "c6cebdf8-62df-49ed-9aa6-050c85a4f6d2"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "e47177df-a19a-4cb8-887b-b310bbd94599"
+            },
+            "id": "51494c0a-f27a-47fd-b46d-48010d8d61aa"
+          }
+        ]
+      },
+      "id": "2cbdd624-4831-4a37-a335-2f2ff70b7f6c"
     }
   ],
   "playerHit1Script": [],

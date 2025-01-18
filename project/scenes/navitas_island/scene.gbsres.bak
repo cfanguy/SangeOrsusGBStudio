@@ -99,6 +99,13 @@
         "customEventId": "6bf3c7fb-091e-45b3-9535-9e8c2e626736"
       },
       "id": "9bf215ae-eaf6-4f0d-a58e-abf403c94b56"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0776719e-2848-436b-8ca3-c744e79e3795"
+      },
+      "id": "c39216ce-b053-461e-84b7-5965f16184c2"
     }
   ],
   "playerHit1Script": [],

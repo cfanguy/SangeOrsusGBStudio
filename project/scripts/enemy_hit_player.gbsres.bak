@@ -50,6 +50,19 @@
             "id": "5a503eee-9620-45bf-8e5a-4a960d1d23f2"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "97ecd9cb-51bb-4fa5-b49f-70eb41407ffb",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "dd1fe1dc-14fc-4bb4-a732-af0319209791"
+          },
+          {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "111511ba-4a91-4b9c-97b9-3be92ca2992c",

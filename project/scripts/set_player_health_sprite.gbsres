@@ -43,6 +43,11 @@
         ],
         "false": [
           {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "c22714a8-d38e-4ad8-bdde-fbf240a599f7"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -71,7 +76,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
+              "sceneId": "b596e974-84ee-422b-a66d-d59863d2516c",
               "x": {
                 "type": "number",
                 "value": 35
@@ -82,7 +87,7 @@
               },
               "direction": "",
               "fadeSpeed": "2",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "3b56776d-9d33-4417-b48b-4f663dcfc510"
           }

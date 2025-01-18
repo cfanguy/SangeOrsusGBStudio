@@ -53,7 +53,8 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "HUD",
-        "__comment": true
+        "__comment": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -74,6 +75,13 @@
         ]
       },
       "id": "72a8d43f-dcef-4572-88a4-5b42cff86a57"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0776719e-2848-436b-8ca3-c744e79e3795"
+      },
+      "id": "bfff49b1-fd15-4a2a-b7c6-ba1551593cea"
     }
   ],
   "playerHit1Script": [],
