@@ -23,6 +23,16 @@
       "id": "397a2527-4f64-46c1-b900-303e5e8a86c0"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "2cdd9ed8-7bda-47b2-b345-b8ff81d80cf2"
+    },
+    {
       "command": "EVENT_WAIT",
       "args": {
         "time": 2,
