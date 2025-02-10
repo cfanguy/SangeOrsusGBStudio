@@ -1,0 +1,26 @@
+{
+  "_resourceType": "trigger",
+  "id": "62c2e910-8595-46cc-8f8e-798ed0d701a5",
+  "_index": 1,
+  "symbol": "trigger_15",
+  "prefabId": "",
+  "name": "",
+  "x": 7,
+  "y": 0,
+  "width": 6,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Demo Complete!\nCongratulations!"
+        ],
+        "avatarId": ""
+      },
+      "id": "23f3bd4a-ab30-453e-83ec-5768b1ae5e5c"
+    }
+  ],
+  "leaveScript": []
+}
