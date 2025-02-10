@@ -75,7 +75,7 @@
               "animSpeed": 255,
               "lifeTime": 0.2,
               "loopAnim": false,
-              "destroyOnHit": true,
+              "destroyOnHit": false,
               "collisionGroup": "2",
               "collisionMask": [
                 "3"
@@ -126,7 +126,7 @@
                     "animSpeed": 255,
                     "lifeTime": 0.2,
                     "loopAnim": false,
-                    "destroyOnHit": true,
+                    "destroyOnHit": false,
                     "collisionGroup": "2",
                     "collisionMask": [
                       "3"
@@ -180,7 +180,7 @@
                     "animSpeed": 255,
                     "lifeTime": 0.2,
                     "loopAnim": false,
-                    "destroyOnHit": true,
+                    "destroyOnHit": false,
                     "collisionGroup": "2",
                     "collisionMask": [
                       "3"
@@ -233,7 +233,7 @@
                     "animSpeed": 255,
                     "lifeTime": 0.2,
                     "loopAnim": false,
-                    "destroyOnHit": true,
+                    "destroyOnHit": false,
                     "collisionGroup": "2",
                     "collisionMask": [
                       "3"
