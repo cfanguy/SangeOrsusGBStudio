@@ -7,10 +7,10 @@
   "tilesetId": "",
   "width": 20,
   "height": 34,
-  "type": "ADVENTURE",
+  "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "002a8+",
+  "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
   "x": 1208,
@@ -56,7 +56,7 @@
           "value": 1
         },
         "direction": "",
-        "fadeSpeed": 1
+        "fadeSpeed": "2"
       },
       "id": "b34e3e79-f0f5-41b0-8b9a-d12fdd9b1a30"
     }

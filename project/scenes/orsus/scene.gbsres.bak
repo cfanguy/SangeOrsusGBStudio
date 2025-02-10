@@ -59,14 +59,6 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_WAIT",
-            "args": {
-              "time": 0.1,
-              "frames": 30
-            },
-            "id": "5de530d9-777d-4218-b4df-1d33eda83767"
-          },
-          {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
               "musicId": "eba93a37-d8fd-4a27-8b46-f97778751de4"
@@ -75,14 +67,6 @@
           }
         ],
         "false": [
-          {
-            "command": "EVENT_WAIT",
-            "args": {
-              "time": 0.1,
-              "frames": 30
-            },
-            "id": "c6cebdf8-62df-49ed-9aa6-050c85a4f6d2"
-          },
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {

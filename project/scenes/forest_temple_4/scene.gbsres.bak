@@ -77,17 +77,11 @@
       "id": "cb3316d6-5f57-4cd8-96ac-2b132f3d4d61"
     },
     {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "0776719e-2848-436b-8ca3-c744e79e3795"
-      },
-      "id": "30111ccc-abea-4b55-a524-151bac5bf539"
-    },
-    {
       "command": "EVENT_GROUP",
       "args": {
         "__label": "HUD",
-        "__comment": true
+        "__comment": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -108,6 +102,13 @@
         ]
       },
       "id": "2a2bffe9-05fc-4f45-8243-003677b05958"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0776719e-2848-436b-8ca3-c744e79e3795"
+      },
+      "id": "30111ccc-abea-4b55-a524-151bac5bf539"
     }
   ],
   "playerHit1Script": [],

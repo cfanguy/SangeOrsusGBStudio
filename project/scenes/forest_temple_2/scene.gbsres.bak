@@ -53,7 +53,8 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "HUD",
-        "__comment": true
+        "__comment": true,
+        "__collapse": true
       },
       "children": {
         "true": [

@@ -44,6 +44,19 @@
       "id": "797612a3-1d8d-4ebe-9a30-6a6572270aa5"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.1,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "a80f8d56-6db7-4c9e-88b8-68fff61ced4e"
+    },
+    {
       "command": "EVENT_IF_ACTOR_DIRECTION",
       "args": {
         "actorId": "$self$",

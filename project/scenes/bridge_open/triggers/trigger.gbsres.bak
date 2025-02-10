@@ -12,6 +12,11 @@
   "prefabScriptOverrides": {},
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "ada58b58-dca7-4097-b291-9e5383366207"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",

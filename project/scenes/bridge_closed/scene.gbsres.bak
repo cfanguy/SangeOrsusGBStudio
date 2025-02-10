@@ -14,7 +14,15 @@
   "paletteIds": [],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "e47177df-a19a-4cb8-887b-b310bbd94599"
+      },
+      "id": "41762bf0-6de5-4c4d-9228-a5b6f75ce424"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
