@@ -1,0 +1,82 @@
+{
+  "_resourceType": "scene",
+  "id": "300974fe-5310-45c3-8967-0ac6be33a705",
+  "_index": 13,
+  "name": "Intro",
+  "backgroundId": "deb4002c-8dd5-4f8f-8fb2-8058ff415af2",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 288,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "44f65f9f-11dd-4123-a489-4f8e8211bcfe"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\n  Sange wakes up\n    after being\n  teleported. He\n  must find a way\n  to get back to\n     the crew."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 10,
+        "maxHeight": 16,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 10,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 1,
+        "speedOut": 1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8b365579-7644-49d7-b5ce-4e4b1b423cd8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "c546ef3e-5314-43d7-a561-237524a6913b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
+        "x": {
+          "type": "number",
+          "value": 34
+        },
+        "y": {
+          "type": "number",
+          "value": 43
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "dc9e1a6b-c8d8-4560-aafd-f4acfdd17716"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

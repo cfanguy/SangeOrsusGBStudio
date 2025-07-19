@@ -1,26 +1,37 @@
 {
   "_resourceType": "scene",
-  "id": "b596e974-84ee-422b-a66d-d59863d2516c",
-  "_index": 0,
-  "type": "ADVENTURE",
-  "name": "Logo",
-  "symbol": "scene_2",
-  "x": 64,
-  "y": 30,
+  "id": "300974fe-5310-45c3-8967-0ac6be33a705",
+  "_index": 13,
+  "name": "Intro",
+  "backgroundId": "deb4002c-8dd5-4f8f-8fb2-8058ff415af2",
+  "tilesetId": "",
   "width": 20,
   "height": 18,
-  "backgroundId": "22147cad-a5e1-440a-a9a3-3c428b230e57",
-  "tilesetId": "",
+  "type": "ADVENTURE",
   "paletteIds": [],
   "spritePaletteIds": [],
+  "collisions": "",
   "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 288,
+  "y": 32,
   "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Sange wakes up\nafter being\nteleported to a\nstrange place. He\nmust find out where\nhe is and get back to\nthe crew of the Nilock.",
+        "x": 1,
+        "y": 1,
+        "location": "background"
+      },
+      "id": "d5953e33-af22-44ab-bf8b-ed583b5a3d86"
+    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "397a2527-4f64-46c1-b900-303e5e8a86c0"
+      "id": "44f65f9f-11dd-4123-a489-4f8e8211bcfe"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -30,15 +41,15 @@
           "type": "false"
         }
       },
-      "id": "2cdd9ed8-7bda-47b2-b345-b8ff81d80cf2"
+      "id": "c546ef3e-5314-43d7-a561-237524a6913b"
     },
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 2,
+        "time": 10,
         "frames": 30
       },
-      "id": "b416df03-09ec-4ba3-81f2-365465623559"
+      "id": "5828d872-37da-406a-a863-253ef2c8cc6d"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -46,7 +57,7 @@
         "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
         "x": {
           "type": "number",
-          "value": 35
+          "value": 34
         },
         "y": {
           "type": "number",
@@ -55,11 +66,10 @@
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "1bf59d19-30d2-4043-929d-01c3725619ef"
+      "id": "dc9e1a6b-c8d8-4560-aafd-f4acfdd17716"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": [],
-  "collisions": "00168+"
+  "playerHit3Script": []
 }

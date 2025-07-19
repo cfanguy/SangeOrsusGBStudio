@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "deb4002c-8dd5-4f8f-8fb2-8058ff415af2",
+  "name": "empty",
+  "symbol": "bg_bar_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "empty.png",
+  "tileColors": ""
+}

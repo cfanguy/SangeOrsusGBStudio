@@ -11,6 +11,31 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "  Demo Complete!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "06c97960-e0c0-428a-afd5-477e463b0b1e"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "d102dc81-9c96-4719-a882-729157b319ba",
