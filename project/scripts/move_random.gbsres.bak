@@ -37,7 +37,7 @@
         "vectorY": "V0",
         "value": "0",
         "minValue": "0",
-        "maxValue": 4,
+        "maxValue": 3,
         "clamp": false
       },
       "id": "ce2f39c1-a9ca-4c9b-942d-893d222dff10"

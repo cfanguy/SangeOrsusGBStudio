@@ -80,7 +80,7 @@
               "customEventId": "e9047a64-df33-4234-a755-bbd15453fba1",
               "$variable[V0]$": {
                 "type": "variable",
-                "value": "L1"
+                "value": "T0"
               },
               "$variable[V1]$": {
                 "type": "property",

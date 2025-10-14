@@ -8,16 +8,6 @@
       "id": "V0",
       "name": "Temp",
       "passByReference": true
-    },
-    "V1": {
-      "id": "V1",
-      "name": "Start X",
-      "passByReference": true
-    },
-    "V2": {
-      "id": "V2",
-      "name": "Start Y",
-      "passByReference": true
     }
   },
   "actors": {
@@ -37,7 +27,7 @@
         "vectorY": "V0",
         "value": "0",
         "minValue": "0",
-        "maxValue": 4,
+        "maxValue": 3,
         "clamp": false
       },
       "id": "ce2f39c1-a9ca-4c9b-942d-893d222dff10"
@@ -171,25 +161,7 @@
         "true13": [],
         "true14": [],
         "true15": [],
-        "false": [
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "actorId": "0",
-              "x": {
-                "type": "variable",
-                "value": "V1"
-              },
-              "y": {
-                "type": "variable",
-                "value": "V2"
-              },
-              "moveType": "diagonal",
-              "useCollisions": true
-            },
-            "id": "f77885a0-591e-4874-9b9b-542e017eb99f"
-          }
-        ]
+        "false": []
       },
       "id": "65ba9664-8388-44b8-8aa6-83413e01a029"
     }

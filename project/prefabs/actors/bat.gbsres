@@ -23,7 +23,19 @@
       "children": {}
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "2f831d6d-b090-4b0b-8cc7-2c2c2efc04d9",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      },
+      "id": "55fece2c-2f75-464a-bc59-a8c44adaabd5"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_WAIT",
@@ -77,15 +89,17 @@
               "customEventId": "e9047a64-df33-4234-a755-bbd15453fba1",
               "$variable[V0]$": {
                 "type": "variable",
-                "value": "T0"
+                "value": "L1"
               },
               "$variable[V1]$": {
-                "type": "number",
-                "value": 5
+                "type": "property",
+                "target": "$self$",
+                "property": "pxpos"
               },
               "$variable[V2]$": {
-                "type": "number",
-                "value": 5
+                "type": "property",
+                "target": "$self$",
+                "property": "pypos"
               }
             },
             "id": "9c1d1f44-0858-49cf-a55f-c16587c21162",
@@ -101,7 +115,11 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a"
+        "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
       },
       "id": "ba78e49d-edfc-4e99-becf-0372e68a4047",
       "children": {}
