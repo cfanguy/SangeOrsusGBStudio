@@ -180,6 +180,26 @@
       "id": "1f6d28a5-f6fd-421a-b528-b9da78c1b3d1__L0",
       "name": "BossHP",
       "symbol": "var_bosshp"
+    },
+    {
+      "id": "595b88d2-5e3a-4355-ae74-1d0f47cd856a__L0",
+      "name": "HPSLime2",
+      "symbol": "var_hpslime2"
+    },
+    {
+      "id": "ba3ebeff-e03f-4757-8a41-74843ed2e64f__L1",
+      "name": "Local 1",
+      "symbol": "var_local_20"
+    },
+    {
+      "id": "aad23df0-ace5-4b25-a00a-178609f657b3__L0",
+      "name": "BossHP",
+      "symbol": "var_bosshp"
+    },
+    {
+      "id": "aad23df0-ace5-4b25-a00a-178609f657b3__L1",
+      "name": "Local 1",
+      "symbol": "var_local_22"
     }
   ]
 }

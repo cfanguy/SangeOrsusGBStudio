@@ -32,6 +32,11 @@
       "symbol": "var_boss_hp"
     },
     {
+      "id": "6",
+      "name": "Player Direction",
+      "symbol": "var_player_direction"
+    },
+    {
       "id": "844635bc-2ad5-46c9-982d-7754e15f6d84__L1",
       "name": "Local 1",
       "symbol": "var_local_1"
@@ -172,14 +177,19 @@
       "symbol": "var_hpslime1"
     },
     {
-      "id": "6",
-      "name": "Player Direction",
-      "symbol": "var_player_direction"
-    },
-    {
       "id": "1f6d28a5-f6fd-421a-b528-b9da78c1b3d1__L0",
       "name": "BossHP",
       "symbol": "var_bosshp"
+    },
+    {
+      "id": "595b88d2-5e3a-4355-ae74-1d0f47cd856a__L0",
+      "name": "HPSLime2",
+      "symbol": "var_hpslime2"
+    },
+    {
+      "id": "ba3ebeff-e03f-4757-8a41-74843ed2e64f__L1",
+      "name": "Local 1",
+      "symbol": "var_local_20"
     }
   ]
 }
